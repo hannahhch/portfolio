@@ -1,0 +1,37 @@
+{
+  "projects": [{
+    "name": "Angular",
+    "year": 2019,
+    "image": "ng.png",
+    "alt": "Link to work with Angular"
+  }, {
+    "name": "First Bank",
+    "year": 2018,
+    "image": "fb.jpg"
+
+  }, {
+    "name": "Hill Center",
+    "year": 2018,
+    "image": "hc.jpg"
+
+  }, {
+    "name": "Rourk",
+    "year": 2018,
+    "image": "rourk.png"
+
+  }, {
+    "name": "fbomb",
+    "year": 2018,
+    "image": "fbomb.jpg"
+
+  }, {
+    "name": "e-conolight",
+    "year": 2017,
+    "image": "econo.jpg"
+
+  }, {
+    "name": "tourify",
+    "year": 2017,
+    "image": "tiy.png"
+  }]
+}
