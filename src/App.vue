@@ -45,13 +45,19 @@ a {
   align-items: center;
   justify-content: space-between;
   max-width: 1000px;
+  padding: 15px 0;
   margin: 0 auto;
+  flex-direction: column;
+  text-align: center;
+}
+
+.nav-links-wrapper :first-child {
+  order: 1;
 }
 
 .nav-title {
-  margin: 10px;
+  margin: 0;
   font-size: 45px;
-  letter-spacing: 5px;
   font-family: 'Mr Dafoe', cursive;
   text-decoration: none;
   color: #2d3436;
@@ -61,5 +67,21 @@ a {
   text-decoration: none;
   color: #2d3436;
   font-size: 18px;
+}
+
+@media screen and (min-width: 750px) {
+  .nav-links-wrapper {
+    flex-direction: row;
+    text-align: left;
+    padding: 0 25px;
+  }
+
+  .nav-title {
+    margin: 10px;
+  }
+
+  .nav-links-wrapper :first-child {
+    order: 0;
+  }
 }
 </style>

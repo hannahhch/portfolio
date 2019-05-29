@@ -19,6 +19,8 @@ export default {
   .nav-links {
     background-color: #fff;
     box-shadow: 0 0 20px 0 rgba(0,0,0,.1);
+    padding: 0 25px;
+
   }
 
   .nav-links-wrapper {
@@ -26,8 +28,9 @@ export default {
     align-items: center;
     justify-content: space-between;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 10px auto;
   }
+
   .nav-title {
     margin: 10px;
     font-size: 45px;
