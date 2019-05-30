@@ -1,13 +1,15 @@
 <template lang="html">
   <section class="portfolio-items">
-    <div
+
+    <router-link
+      :to="'/projects/' + project.id"
       class="portfolio-item"
       v-for="project in projects"
       :style="{
         'background-image': 'url(' + require(`../assets/${project.image}`) + ')'
         }"
     >
-    </div>
+  </router-link>
   </section>
 </template>
 
@@ -28,7 +30,7 @@ export default {
 }
 </script>
 
-<style lang="css">
+<style scoped lang="css">
 
   .portfolio-items {
     display: grid;
