@@ -70,7 +70,7 @@ export default {
 }
 
 .footer-link {
-    margin-bottom: 10px;
+    margin: 0 20px;
     text-transform: uppercase;
     transition: all 300ms ease-in;
 }
@@ -100,7 +100,7 @@ export default {
 
   .footer--right {
       margin-right: 15px;
-      width: 35%;
+      width: 50%;
       flex-direction: row;
       justify-content: space-between;
   }

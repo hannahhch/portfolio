@@ -111,9 +111,6 @@ export default {
 </script>
 
 <style scoped lang="css">
-  main {
-    background-color: rgb(87, 101, 116, .1);
-  }
 
   hr {
     border-color: rgb(87, 101, 116, .1);
@@ -134,7 +131,7 @@ export default {
   .wrapper {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 25px 0;
+    padding: 25px;
   }
 
   .section-title {
@@ -156,5 +153,14 @@ export default {
   .info-title {
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
+    font-size: 18px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .info-title {
+      flex-direction: row;
+    }
+
   }
 </style>

@@ -1,8 +1,8 @@
 <template lang="html">
   <div>
-    <Nav/>
     <Hero/>
-    <section class="portfolio-items">
+    <About/>
+    <section class="portfolio-items" id="work">
       <router-link
         :to="'/projects/' + project.id"
         class="portfolio-item"
@@ -22,7 +22,7 @@
 import axios from 'axios';
 import Hero from '../components/Hero.vue';
 import Footer from '../components/Footer.vue';
-import Nav from '../components/Nav.vue';
+import About from '../components/About.vue';
 
 export default {
   data: function (){
@@ -32,6 +32,7 @@ export default {
   },
   components: {
     Hero,
+    About,
     Footer
   },
   mounted() {

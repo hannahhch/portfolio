@@ -36,6 +36,8 @@ body {
     margin: 0;
     color: var(--blue-grey--dark);
     font-family: var(--font-main);
+    background-color: rgb(87, 101, 116, .1);
+
 }
 
 h2 {

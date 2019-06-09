@@ -16,6 +16,9 @@ export default {
 </script>
 
 <style lang="css">
+nav {
+  background: white;
+}
 
 @media (max-width: 750px) {
     .nav-links h2 {
