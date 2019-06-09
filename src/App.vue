@@ -4,6 +4,7 @@
       <Nav/>
     </div>
     <router-view/>
+    <Footer/>
   </div>
 </template>
 
@@ -15,6 +16,7 @@ export default {
   name: 'app',
   components: {
     Nav,
+    Footer
   }
 }
 </script>

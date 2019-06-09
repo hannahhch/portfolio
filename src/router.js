@@ -15,7 +15,7 @@ export default new Router({
     {
       path: '/resume',
       name: 'resume',
-      component: () => import(/* webpackChunkName: "project" */ './views/Resume.vue')
+      component: () => import(/* webpackChunkName: "resume" */ './views/Resume.vue')
     },
     {
       path: '/projects/:id',

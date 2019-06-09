@@ -13,7 +13,6 @@
       >
     </router-link>
     </section>
-    <Footer/>
   </div>
 
 </template>
@@ -21,7 +20,6 @@
 <script>
 import axios from 'axios';
 import Hero from '../components/Hero.vue';
-import Footer from '../components/Footer.vue';
 import About from '../components/About.vue';
 
 export default {
@@ -33,7 +31,6 @@ export default {
   components: {
     Hero,
     About,
-    Footer
   },
   mounted() {
      axios.get('../data/projects.json').then(response => {
