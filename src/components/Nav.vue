@@ -1,10 +1,12 @@
 <template lang="html">
   <nav class="nav-links">
     <a class="nav-links__link" href="#about">About</a>
+    <a class="nav-links__link" href="#work">Work</a>
     <router-link :to="{ name: 'main' }">
       <h2>Hannah Hudson</h2>
     </router-link>
-    <a class="nav-links__link" href="#work">Work</a>
+    <router-link :to="{ name: 'resume' }" class="nav-links__link">Resume</router-link>
+    <a class="nav-links__link" href="mailto:hannah.hch@gmail.com">Email</a>
   </nav>
 </template>
 

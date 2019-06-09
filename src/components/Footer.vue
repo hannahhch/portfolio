@@ -15,7 +15,7 @@
           <a href="https://www.linkedin.com/in/hannahchudson/" target="_blank" class="footer-link">
               LinkedIn
           </a>
-          <a href="./documents/resume.pdf" target="_blank" class="footer-link">Resumé</a>
+          <!-- <a :href="require(`../assets/documents/resume.pdf`)" target="_blank" class="footer-link">Resumé</a> -->
 
       </div>
     </div>
@@ -24,7 +24,9 @@
 </template>
 
 <script>
+
 export default {
+
 }
 </script>
 
