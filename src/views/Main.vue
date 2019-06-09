@@ -1,26 +1,38 @@
 <template lang="html">
-  <section class="portfolio-items">
+  <div>
+    <Nav/>
+    <Hero/>
+    <section class="portfolio-items">
+      <router-link
+        :to="'/projects/' + project.id"
+        class="portfolio-item"
+        v-for="project in projects"
+        :style="{
+          'background-image': 'url(' + require(`../assets/images/${project.image}`) + ')'
+          }"
+      >
+    </router-link>
+    </section>
+    <Footer/>
+  </div>
 
-    <router-link
-      :to="'/projects/' + project.id"
-      class="portfolio-item"
-      v-for="project in projects"
-      :style="{
-        'background-image': 'url(' + require(`../assets/${project.image}`) + ')'
-        }"
-    >
-  </router-link>
-  </section>
 </template>
 
 <script>
 import axios from 'axios';
+import Hero from '../components/Hero.vue';
+import Footer from '../components/Footer.vue';
+import Nav from '../components/Nav.vue';
 
 export default {
   data: function (){
     return {
       projects: []
     }
+  },
+  components: {
+    Hero,
+    Footer
   },
   mounted() {
      axios.get('../data/projects.json').then(response => {
@@ -36,10 +48,11 @@ export default {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 50px;
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 50px auto;
     padding: 0 25px;
   }
+
   .portfolio-item {
     background-repeat: no-repeat;
     background-size: cover;

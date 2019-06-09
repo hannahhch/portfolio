@@ -1,6 +1,5 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Main from './components/Main.vue'
 
 Vue.use(Router)
 
@@ -11,11 +10,7 @@ export default new Router({
     {
       path: '/',
       name: 'main',
-      component: Main
-    },
-    {
-      path: '/about',
-      component: () => import(/* webpackChunkName: "about" */ './views/About.vue')
+      component: () => import(/* webpackChunkName: "about" */ './views/Main.vue')
     },
     {
       path: '/projects/:id',

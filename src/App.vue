@@ -1,85 +1,133 @@
 <template>
   <div id="app">
     <div id="nav">
-      <nav class="nav-links">
-        <div class="nav-links-wrapper">
-          <router-link to="/contact" class="nav-links__link">Contact</router-link>
-          <router-link to="/">
-            <h2 class="nav-title">Hannah Hudson</h2>
-          </router-link>
-          <router-link to="/about" class="nav-links__link">About</router-link>
-        </div>
-      </nav>
+      <Nav/>
     </div>
     <router-view/>
   </div>
 </template>
 
+<script>
+import Nav from './components/Nav'
+import Footer from './components/Footer'
+
+export default {
+  name: 'app',
+  components: {
+    Nav,
+  }
+}
+</script>
+
 <style>
 
-body {
-  margin: 0;
-  color: #2d3436;
-  background-color: #f2f2f2;
+:root {
+    --blue-grey: #c8d6e5;
+    --blue-grey--dark: #576574;
+    --white: #fff;
+    --black: #000;
+
+    --font-main: 'Poppins', sans-serif;
+
+    --small: 480px;
 }
 
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body {
+    margin: 0;
+    color: var(--blue-grey--dark);
+    font-family: var(--font-main);
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 35px;
+    white-space: nowrap;
+}
+
+p,
+h2,
+h3,
+h4 {
+    font-weight: 300;
+}
+
+p {
+    font-size: 15px;
 }
 
 a {
-  text-decoration: none;
+    text-decoration: none;
+    font-weight: 700;
+    color: var(--dark-purple);
 }
 
-.nav-links {
-  background-color: #fff;
-  box-shadow: 0 0 20px 0 rgba(0,0,0,.1);
+ul {
+    padding-left: 0;
 }
 
-.nav-links-wrapper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  max-width: 1000px;
-  padding: 15px 0;
-  margin: 0 auto;
-  flex-direction: column;
-  text-align: center;
+/* Large Mobile */
+
+@media screen and (min-width: 480px) {
+
+    h2 {
+        font-size: 45px;
+    }
+
+    p {
+        font-size: 20px;
+    }
 }
 
-.nav-links-wrapper :first-child {
-  order: 1;
-}
-
-.nav-title {
-  margin: 0;
-  font-size: 45px;
-  font-family: 'Mr Dafoe', cursive;
-  text-decoration: none;
-  color: #2d3436;
-}
-
-.nav-links__link {
-  text-decoration: none;
-  color: #2d3436;
-  font-size: 18px;
-}
+/* Tablet */
 
 @media screen and (min-width: 750px) {
-  .nav-links-wrapper {
-    flex-direction: row;
-    text-align: left;
-    padding: 0 25px;
-  }
 
-  .nav-title {
-    margin: 10px;
-  }
+    .nav-links__link:hover,
+    .footer-link:hover {
+        border-bottom: solid 1px var(--blue-grey--dark);
+    }
 
-  .nav-links-wrapper :first-child {
-    order: 0;
-  }
+
+    h2 {
+        font-size: 35px;
+        text-decoration: none;
+    }
+
+    li {
+        font-size: 20px;
+        max-width: 200px;
+    }
+
+    h1 {
+        font-size: 160px;
+    }
 }
+
+/* Desktop */
+
+@media screen and (min-width: 1200px) {
+    .portfolio-items {
+        max-width: 1200px;
+        margin: 30px auto;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+
+    h1 {
+        font-size: 250px;
+        margin-left: 10px;
+    }
+
+    li {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 60px;
+    }
+
+
+}
+
 </style>
