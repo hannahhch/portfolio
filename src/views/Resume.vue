@@ -111,6 +111,9 @@ export default {
 </script>
 
 <style scoped lang="css">
+  main {
+    background-color:  rgb(87, 101, 116, .1);
+  }
 
   hr {
     border-color: rgb(87, 101, 116, .1);
