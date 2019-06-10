@@ -11,6 +11,10 @@
 <script>
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+import Vue from 'vue'
+import vueSmoothScroll from 'vue2-smooth-scroll'
+
+Vue.use(vueSmoothScroll)
 
 export default {
   name: 'app',
