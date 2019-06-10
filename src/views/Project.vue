@@ -1,11 +1,17 @@
 <template>
   <div class="main">
-    <h1>This is a project page</h1>
+    <div>{{ currentId }}</div>
   </div>
 </template>
 
 <script>
-  export default {}
+  export default {
+    data: function () {
+      return {
+        currentId: this.$route.params.id
+      }
+    }
+  }
 </script>
 
 <style scoped lang="css">
