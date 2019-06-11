@@ -34,8 +34,6 @@ export default {
     --black: #000;
 
     --font-main: 'Poppins', sans-serif;
-
-    --small: 480px;
 }
 
 body {

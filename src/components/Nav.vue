@@ -2,9 +2,6 @@
   <nav class="nav-links">
     <router-link v-smooth-scroll class="nav-links__link" to="/#about">About</router-link>
     <router-link v-smooth-scroll class="nav-links__link" to="/#work">Work</router-link>
-    <router-link :to="{ name: 'main' }">
-      <h2>Hannah Hudson</h2>
-    </router-link>
     <router-link :to="{ name: 'resume' }" class="nav-links__link">Resume</router-link>
     <a class="nav-links__link" href="mailto:hannah.hch@gmail.com">Email</a>
   </nav>
@@ -35,7 +32,7 @@ nav {
     align-items: center;
     flex-direction: column;
     transition: all 300ms ease-in;
-    padding: 10px 0;
+    padding: 25px 0;
 }
 
 .nav-links__link  {

@@ -1,6 +1,10 @@
 <template lang="html">
   <div class="hero-section" id="about">
     <div class="hero-section__overlay">
+      <div class="hero-section__text">
+        <h1 class="hero-section__title">Hannah Hudson</h1>
+        <h2 class="hero-section__subtitle">Frontend Software Engineer</h2>
+      </div>
     </div>
   </div>
 </template>
@@ -17,6 +21,7 @@ export default {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     width: 100%;
     height: 80vh;
     margin: 0 auto;
@@ -33,15 +38,27 @@ export default {
 }
 
 .hero-section__text {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 25px;
-    color: var(--white);
-    width: 90%;
-    margin: 0 auto;
-    text-align: center;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--white);
+}
+
+.hero-section__title {
+    font-size: 40px;
+    padding-left: 20px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.hero-section__subtitle {
+  margin: 0;
+  font-size: 18px;
+  padding-right: 15px;
+  text-align: right;
+  text-transform: capitalize;
+  background-color: var(--blue-grey);
+  color: var(--blue-grey--dark);
 }
 
 @media screen and (min-width: 750px) {
@@ -50,8 +67,12 @@ export default {
         height: 1px;
   }
 
-  .hero-section__text{
-      font-size: 30px;
+  .hero-section__title {
+      font-size: 75px;
+  }
+
+  .hero-section__subtitle {
+    font-size: 30px;
   }
 
 }

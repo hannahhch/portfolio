@@ -1,6 +1,7 @@
 <template lang="html">
   <main>
     <div class="wrapper">
+      <h1 class="title">Hannah Hudson</h1>
       <section>
         <h2 class="section-title">
           Technical Skills
@@ -121,6 +122,11 @@ export default {
 
   section {
     margin-bottom: 25px;
+  }
+
+  .title {
+    font-size: 40px;
+    text-transform: uppercase;
   }
 
   .resume-header h2, h3, h4 {
