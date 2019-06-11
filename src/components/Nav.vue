@@ -1,7 +1,7 @@
 <template lang="html">
   <nav class="nav-links">
-    <a v-smooth-scroll class="nav-links__link" href="#about">About</a>
-    <a v-smooth-scroll class="nav-links__link" href="#work">Work</a>
+    <router-link v-smooth-scroll class="nav-links__link" to="/#about">About</router-link>
+    <router-link v-smooth-scroll class="nav-links__link" to="/#work">Work</router-link>
     <router-link :to="{ name: 'main' }">
       <h2>Hannah Hudson</h2>
     </router-link>
