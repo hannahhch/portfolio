@@ -34,6 +34,10 @@ export default {
     --black: #000;
 
     --font-main: 'Poppins', sans-serif;
+
+    --font-thin: 100;
+    --font-light-normal: 300;
+    --font-normal: 400;
 }
 
 body {
@@ -41,20 +45,19 @@ body {
     color: var(--blue-grey--dark);
     font-family: var(--font-main);
     background-color: rgb(87, 101, 116, .1);
-
 }
 
 h1 {
     text-transform: uppercase;
     font-size: 35px;
-    font-weight: 400;
+    font-weight: var(--font-normal);
 }
 
 p,
 h2,
 h3,
 h4 {
-    font-weight: 300;
+    font-weight: var(--font-light-normal);
 }
 
 p {
@@ -114,12 +117,6 @@ ul {
 
 /* Desktop */
 
-@media screen and (min-width: 1200px) {
-    .portfolio-items {
-        max-width: 1200px;
-        margin: 30px auto;
-    }
-}
 
 @media screen and (min-width: 1400px) {
 

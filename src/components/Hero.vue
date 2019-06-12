@@ -63,8 +63,8 @@ export default {
 
 @media screen and (min-width: 750px) {
   .hero-section {
-        padding-top: calc(200 / 600 * 100%);
-        height: 1px;
+      padding-top: calc(200 / 600 * 100%);
+      height: 1px;
   }
 
   .hero-section__title {

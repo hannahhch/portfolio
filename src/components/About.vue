@@ -17,6 +17,7 @@ export default {
   .about-section {
     background-color: white;
     padding: 0 25px;
+    border-top: solid 5px var(--blue-grey--dark);
   }
 
   .about-section--wrapper {

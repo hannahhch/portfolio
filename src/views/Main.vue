@@ -2,16 +2,24 @@
   <div>
     <Hero/>
     <About/>
-    <section class="portfolio-items" id="work">
-      <router-link
-        :to="'/projects/' + project.id"
-        class="portfolio-item"
-        v-for="project in projects"
-        :style="{
-          'background-image': 'url(' + require(`../assets/images/${project.image}`) + ')'
-          }"
-      >
-    </router-link>
+    <section class="portfolio-section">
+      <span class="portfolio-setion--split"></span>
+      <div class="portfolio-section__content">
+        <h2 class="portfolio-section__title">Current Projects</h2>
+        <div class="portfolio-items">
+          <router-link
+            :to="'/projects/' + project.id"
+            class="portfolio-item"
+            v-for="project in projects"
+            :style="{
+              'background-image': 'url(' + require(`../assets/images/${project.image}`) + ')'
+              }"
+          >
+          </router-link>
+        </div>
+      </div>
+
+
     </section>
   </div>
 
@@ -41,13 +49,37 @@ export default {
 </script>
 
 <style scoped lang="css">
+  .portfolio-section {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .portfolio-setion--split {
+    width: 100%;
+    position: absolute;
+    transform: skewY(-66deg);
+    transform-origin: top left;
+    height: 100%;
+    background: var(--blue-grey--dark);
+    bottom: 0
+  }
+
+  .portfolio-section__content {
+    max-width: 1100px;
+    margin: 50px auto;
+  }
 
   .portfolio-items {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 50px;
-    max-width: 1100px;
-    margin: 50px auto;
+    padding: 0 25px;
+  }
+
+  .portfolio-section__title {
+    color: var(--white);
+    position: relative;
+    z-index: 2;
     padding: 0 25px;
   }
 
@@ -66,17 +98,31 @@ export default {
   .portfolio-item:hover {
     border-bottom: none;
     filter:grayscale(0);
+    transform: scale(1.1);
   }
 
   @media screen and (min-width: 750px) {
     .portfolio-items {
       grid-template-columns: 1fr 1fr 1fr;
     }
+
+    .portfolio-setion--split {
+      transform: skewY(-48deg);
+    }
+
+    .portfolio-section__title {
+      padding: 0;
+    }
+
   }
 
   @media screen and (min-width: 1000px) {
     .portfolio-items {
       grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .portfolio-setion--split {
+      transform: skewY(-21deg);
     }
   }
 </style>

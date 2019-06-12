@@ -1,14 +1,16 @@
 <template lang="html">
-  <main>
-    <div class="resume-wrapper">
+  <main class="resume-page">
+    <div class="resume-header__wrapper">
       <div class="resume-header">
         <div>
           <h1 class="resume-header--title">Hannah Hudson</h1>
-          <h2 class="resume-header--subtitle">Web Developer</h2>
+          <h2 class="resume-header--subtitle">Frontend Software Engineer</h2>
         </div>
         <img class="resume-image" src="../assets/images/profile.jpg" alt="profile of Hannah Hudson">
       </div>
+    </div>
 
+    <div class="resume-wrapper">
       <section>
         <h2 class="section-title">
           Technical Skills
@@ -119,10 +121,6 @@ export default {
 </script>
 
 <style scoped lang="css">
-  main {
-    background-color:  rgb(87, 101, 116, .1);
-  }
-
   hr {
     border-color: rgb(87, 101, 116, .1);
     margin: 25px 0 ;
@@ -132,11 +130,25 @@ export default {
     margin-bottom: 25px;
   }
 
+  .resume-page {
+    background-color:  rgb(87, 101, 116, .1);
+  }
+
+  .resume-header__wrapper {
+    background-color: var(--blue-grey--dark);
+    color: var(--white);
+    padding: 25px;
+
+  }
+
   .resume-header {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
   }
 
   .resume-header--title {
@@ -147,6 +159,7 @@ export default {
 
   .resume-header--subtitle {
     margin: 0;
+    font-weight: var(--font-thin);
   }
 
   .resume-image {
@@ -161,11 +174,12 @@ export default {
   }
 
   .section-title {
-    font-size: 25px;
-    margin-top: 55px;
+    font-size: 20px;
+    margin-top: 35px;
   }
 
   .skills-list {
+    font-weight: var(--font-light-normal);
     list-style: none;
     display: flex;
     flex-wrap: wrap;
@@ -186,6 +200,7 @@ export default {
   @media screen and (min-width: 750px) {
     .resume-header {
       flex-direction: row;
+      text-align: left;
     }
 
     .resume-header--title {
@@ -194,6 +209,11 @@ export default {
 
     .resume-image {
       margin-bottom: 0;
+    }
+
+    .section-title {
+      font-size: 25px;
+      margin-top: 55px;
     }
 
     .info-title {
