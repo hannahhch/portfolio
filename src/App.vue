@@ -44,10 +44,10 @@ body {
 
 }
 
-h2 {
+h1 {
     text-transform: uppercase;
     font-size: 35px;
-    white-space: nowrap;
+    font-weight: 400;
 }
 
 p,
@@ -62,9 +62,18 @@ p {
 }
 
 a {
-    text-decoration: none;
-    font-weight: 700;
-    color: var(--dark-purple);
+  color: var(--dark-purple);
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all 300ms;
+  border-bottom: solid 1px transparent;
+  transition: all 300ms linear;
+  opacity: .7;
+}
+
+a:hover {
+  opacity: 1;
+  border-bottom: solid 1px var(--blue-grey--dark);
 }
 
 ul {
@@ -87,12 +96,6 @@ ul {
 /* Tablet */
 
 @media screen and (min-width: 750px) {
-
-    .nav-links__link:hover,
-    .footer-link:hover {
-        border-bottom: solid 1px var(--blue-grey--dark);
-    }
-
 
     h2 {
         font-size: 35px;

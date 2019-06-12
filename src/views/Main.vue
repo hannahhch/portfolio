@@ -52,11 +52,20 @@ export default {
   }
 
   .portfolio-item {
+    border-bottom: none;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    text-decoration: none;
     height: 1px;
     padding-top: calc(100 / 100 * 100%);
+    opacity: 1;
+    filter: grayscale(100%);
+  }
+
+  .portfolio-item:hover {
+    border-bottom: none;
+    filter:grayscale(0);
   }
 
   @media screen and (min-width: 750px) {

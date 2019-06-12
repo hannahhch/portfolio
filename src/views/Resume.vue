@@ -1,7 +1,14 @@
 <template lang="html">
   <main>
-    <div class="wrapper">
-      <h1 class="title">Hannah Hudson</h1>
+    <div class="resume-wrapper">
+      <div class="resume-header">
+        <div>
+          <h1 class="resume-header--title">Hannah Hudson</h1>
+          <h2 class="resume-header--subtitle">Web Developer</h2>
+        </div>
+        <img class="resume-image" src="../assets/images/profile.jpg" alt="profile of Hannah Hudson">
+      </div>
+
       <section>
         <h2 class="section-title">
           Technical Skills
@@ -118,26 +125,36 @@ export default {
 
   hr {
     border-color: rgb(87, 101, 116, .1);
+    margin: 25px 0 ;
   }
 
   section {
     margin-bottom: 25px;
   }
 
-  .title {
-    font-size: 40px;
-    text-transform: uppercase;
+  .resume-header {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
   }
 
-  .resume-header h2, h3, h4 {
+  .resume-header--title {
+    font-size: 30px;
+    text-transform: uppercase;
     margin: 0;
   }
 
-  hr {
-    margin: 25px 0 ;
+  .resume-header--subtitle {
+    margin: 0;
   }
 
-  .wrapper {
+  .resume-image {
+    border-radius: 50%;
+    margin-bottom: 25px;
+  }
+
+  .resume-wrapper {
     max-width: 1100px;
     margin: 0 auto;
     padding: 25px;
@@ -167,6 +184,18 @@ export default {
   }
 
   @media screen and (min-width: 750px) {
+    .resume-header {
+      flex-direction: row;
+    }
+
+    .resume-header--title {
+      font-size: 40px;
+    }
+
+    .resume-image {
+      margin-bottom: 0;
+    }
+
     .info-title {
       flex-direction: row;
     }

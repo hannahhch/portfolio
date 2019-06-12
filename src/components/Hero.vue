@@ -1,12 +1,12 @@
 <template lang="html">
-  <div class="hero-section" id="about">
+  <section class="hero-section">
     <div class="hero-section__overlay">
       <div class="hero-section__text">
         <h1 class="hero-section__title">Hannah Hudson</h1>
         <h2 class="hero-section__subtitle">Frontend Software Engineer</h2>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -17,7 +17,7 @@ export default {
 <style lang="css">
 
 .hero-section {
-    background-image: url('../assets/images/profile.jpg');
+    background-image: url('../assets/images/hero.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +45,7 @@ export default {
 }
 
 .hero-section__title {
-    font-size: 40px;
+    font-size: 35px;
     padding-left: 20px;
     margin: 0;
     text-transform: uppercase;
@@ -53,7 +53,7 @@ export default {
 
 .hero-section__subtitle {
   margin: 0;
-  font-size: 18px;
+  font-size: 20px;
   padding-right: 15px;
   text-align: right;
   text-transform: capitalize;
@@ -68,12 +68,17 @@ export default {
   }
 
   .hero-section__title {
-      font-size: 75px;
+      font-size: 50px;
   }
 
   .hero-section__subtitle {
     font-size: 30px;
   }
+}
 
+@media screen and (min-width: 1000px) {
+  .hero-section__title {
+      font-size: 75px;
+  }
 }
 </style>
