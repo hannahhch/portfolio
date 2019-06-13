@@ -11,6 +11,7 @@
             :to="'/projects/' + project.id"
             class="portfolio-item"
             v-for="project in projects"
+            :title="project.alt"
             :style="{
               'background-image': 'url(' + require(`../assets/images/${project.image}`) + ')'
               }"
@@ -73,7 +74,6 @@ export default {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 50px;
-    padding: 0 25px;
   }
 
   .portfolio-section__title {

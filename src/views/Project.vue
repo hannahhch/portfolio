@@ -1,22 +1,38 @@
 <template>
   <div class="main">
-    <div>{{ currentId }}</div>
+    <h2>{{ currentProject.name }}</h2>
+    <a
+      v-if="currentProject.url"
+      :href="currentProject.url"
+      target="_blank"
+      rel="noreferrer">
+    Check out the Site</a>
   </div>
 </template>
 
 <script>
+import axios from 'axios';
+
   export default {
     data: function () {
       return {
-        currentId: this.$route.params.id
+        currentId: this.$route.params.id,
+        currentProject: {},
       }
+    },
+    mounted() {
+      axios.get('../data/projects.json').then(response => {
+        let projects = response.data.projects;
+        this.currentProject = projects.find(project => project.id === this.currentId);
+        console.log(this.currentProject.name);
+      })
     }
   }
 </script>
 
 <style scoped lang="css">
   .main {
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 50px auto;
     padding: 0 25px;
   }

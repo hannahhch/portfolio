@@ -1,40 +1,52 @@
 {
   "projects": [{
-    "id": "angular",
-    "name": "Angular",
+    "id": "cisco",
+    "name": "Cisco",
     "year": 2019,
-    "image": "ng.png",
-    "alt": "Link to work with Angular"
+    "image": "cisco.jpg",
+    "alt": "Click to see Cisco work"
   }, {
     "id": "first-bank",
     "name": "First Bank",
     "year": 2018,
-    "image": "fb.jpg"
+    "image": "fb.jpg",
+    "alt": "Click to see work on First Bank",
+    "url": "https://localfirstbank.com/"
   }, {
     "id": "hill-center",
     "name": "Hill Center",
     "year": 2018,
-    "image": "hc.jpg"
+    "image": "hc.jpg",
+    "alt": "Click to see work on Hill Center",
+    "url": "https://www.hillcenter.org/"
   }, {
     "id": "rourk",
     "name": "Rourk",
     "year": 2018,
-    "image": "rourk.png"
+    "image": "rourk.png",
+    "alt": "Click to see work on Rourk",
+    "url": "https://rourkcapital.com/"
   }, {
     "id": "fbomb",
     "name": "fbomb",
     "year": 2018,
-    "image": "fbomb.jpg"
+    "image": "fbomb.jpg",
+    "alt": "Click to see work on f bomb",
+    "url": "https://www.dropanfbomb.com/"
   }, {
     "id": "e-conolight",
     "name": "e-conolight",
     "year": 2017,
-    "image": "econo.jpg"
+    "image": "econo.jpg",
+    "alt": "Click to see work on e conolight",
+    "url": "https://www.e-conolight.com/"
 
   }, {
     "id": "tourify",
     "name": "tourify",
     "year": 2017,
-    "image": "tiy.png"
+    "image": "tiy.png",
+    "alt": "Click to see work on Tourify",
+    "url": "https://serene-brushlands-14696.herokuapp.com/"
   }]
 }

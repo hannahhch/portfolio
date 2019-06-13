@@ -94,7 +94,7 @@
   }
 
   .footer-link {
-      margin-bottom: 0;
+      margin: 0;
       font-size: 20px;
   }
 
@@ -107,12 +107,9 @@
     flex-direction: row;
   }
 
-  .footer-content--left {
-      margin-left: 15px;
-  }
+
 
   .footer-content--right {
-      margin-right: 15px;
       width: 50%;
       flex-direction: row;
       justify-content: space-between;
