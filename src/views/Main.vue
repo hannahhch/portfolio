@@ -74,6 +74,7 @@ export default {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 50px;
+    padding: 0 25px;
   }
 
   .portfolio-section__title {
@@ -109,20 +110,20 @@ export default {
     .portfolio-setion--split {
       transform: skewY(-48deg);
     }
-
-    .portfolio-section__title {
-      padding: 0;
-    }
-
   }
 
-  @media screen and (min-width: 1000px) {
+  @media screen and (min-width: 1150px) {
     .portfolio-items {
       grid-template-columns: 1fr 1fr 1fr 1fr;
+      padding: 0;
     }
 
     .portfolio-setion--split {
       transform: skewY(-21deg);
+    }
+
+    .portfolio-section__title {
+      padding: 0;
     }
   }
 </style>

@@ -1,7 +1,8 @@
 <template>
   <div id="app">
+    <span class="overlay"></span>
     <div id="nav">
-      <Nav/>
+      <Nav @clicked="blurBackground"/>
     </div>
     <router-view/>
     <Footer/>
@@ -21,6 +22,15 @@ export default {
   components: {
     Nav,
     Footer
+  },
+  methods: {
+    blurBackground: function(event) { //TODO
+      console.log(event)l
+      if (true) {
+        document.querySelector('.overlay').classList.add('shown');
+
+      }
+    },
   }
 }
 </script>
@@ -47,18 +57,31 @@ body {
     background-color: rgb(87, 101, 116, .1);
 }
 
+.overlay.shown {
+  background: rgba(0, 0, 0, .7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 3;
+}
+
 h1 {
     text-transform: uppercase;
     font-size: 35px;
     font-weight: var(--font-normal);
+    margin: 0 0 20px 0;
 }
 
 p,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
     font-weight: var(--font-light-normal);
+    margin: 0 0 10px 0;
 }
+
 
 p {
     font-size: 15px;
@@ -76,11 +99,28 @@ a {
 
 a:hover {
   opacity: 1;
+  cursor: pointer;
   border-bottom: solid 1px var(--blue-grey--dark);
 }
 
 ul {
     padding-left: 0;
+}
+
+.button {
+  text-decoration: none;
+  background-color: var(--blue-grey);
+  color: var(--blue-grey--dark);
+  padding: 10px 25px;
+  border: solid 1px transparent;
+  font-size: 20px;
+  margin-top: 20px;
+  transition: all 300ms;
+}
+
+.button:hover {
+  border-color: var(--blue-grey--dark);
+  cursor: pointer;
 }
 
 /* Large Mobile */

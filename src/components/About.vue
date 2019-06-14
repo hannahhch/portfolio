@@ -20,9 +20,13 @@ export default {
     border-top: solid 5px var(--blue-grey--dark);
   }
 
+  h2, p {
+    margin: 0;
+  }
+
   .about-section--wrapper {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 25px 0;
+    padding: 50px 0;
   }
 </style>

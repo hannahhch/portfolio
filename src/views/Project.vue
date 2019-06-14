@@ -1,12 +1,13 @@
 <template>
   <div class="main">
-    <h2>{{ currentProject.name }}</h2>
+    <h2 class="project-title">{{ currentProject.name }}</h2>
     <a
+      class="button"
       v-if="currentProject.url"
       :href="currentProject.url"
       target="_blank"
       rel="noreferrer">
-    Check out the Site</a>
+    See the Site</a>
   </div>
 </template>
 
@@ -24,7 +25,6 @@ import axios from 'axios';
       axios.get('../data/projects.json').then(response => {
         let projects = response.data.projects;
         this.currentProject = projects.find(project => project.id === this.currentId);
-        console.log(this.currentProject.name);
       })
     }
   }
@@ -36,4 +36,6 @@ import axios from 'axios';
     margin: 50px auto;
     padding: 0 25px;
   }
+
+
 </style>

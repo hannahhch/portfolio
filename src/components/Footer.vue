@@ -9,14 +9,14 @@
           <a href="mailto:hannah.hch@gmail.com">hannah.hch@gmail.com</a>
       </div>
       <div class="footer-content--right">
-          <a href="mailto:hannah.hch@gmail.com" class="footer-link">
-            Email
-          </a>
           <a href="https://github.com/hannahhch" target="_blank" class="footer-link">
               GitHub
           </a>
           <a href="https://www.linkedin.com/in/hannahchudson/" target="_blank" class="footer-link">
               LinkedIn
+          </a>
+          <a href="https://codepen.io/dashboard/" target="_blank" class="footer-link">
+              CodePen
           </a>
       </div>
     </div>
@@ -106,8 +106,6 @@
   .footer-content {
     flex-direction: row;
   }
-
-
 
   .footer-content--right {
       width: 50%;
