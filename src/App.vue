@@ -2,7 +2,7 @@
   <div id="app">
     <span class="overlay"></span>
     <div id="nav">
-      <Nav @clicked="blurBackground"/>
+      <Nav v-on:clicked="determineBackgroundBlur" v-bind:isModalShown="isModalShown"/>
     </div>
     <router-view/>
     <Footer/>
@@ -19,16 +19,23 @@ Vue.use(vueSmoothScroll)
 
 export default {
   name: 'app',
+  data() {
+    return {
+      isModalShown: false
+    }
+  },
   components: {
     Nav,
     Footer
   },
   methods: {
-    blurBackground: function(event) { //TODO
-      console.log(event)l
-      if (true) {
-        document.querySelector('.overlay').classList.add('shown');
-
+    determineBackgroundBlur () {
+      this.isModalShown = !this.isModalShown;
+      const overlay =  document.querySelector('.overlay');
+      if (this.isModalShown) {
+        overlay.classList.add('shown');
+      } else {
+        overlay.classList.remove('shown');
       }
     },
   }
@@ -59,7 +66,7 @@ body {
 
 .overlay.shown {
   background: rgba(0, 0, 0, .7);
-  position: absolute;
+  position: fixed;
   height: 100%;
   width: 100%;
   z-index: 3;

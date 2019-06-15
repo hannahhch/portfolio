@@ -1,13 +1,13 @@
 <template lang="html">
   <div class="navigation-wrapper">
+
     <nav class="navigation" id="top">
       <router-link :to="{ name: 'main' }" class="navigation-link">Home</router-link>
       <router-link :to="{ name: 'resume' }" class="navigation-link">Resume</router-link>
-      <a v-on:click='showModal()' class="navigation-link">Contact</a>
+      <a @click="toggleModal" class="navigation-link">Contact</a>
     </nav>
 
-    <Modal v-if="isModalShown" @clicked="hideModal"/>
-    <div v-else></div>
+    <Modal v-if="isModalShown" v-bind:toggleModal="toggleModal"/>
   </div>
 
 </template>
@@ -16,23 +16,14 @@
 import Modal from '../components/Modal.vue';
 
 export default {
-  data() {
-    return {
-      isModalShown: false
-    }
-  },
+  props: ['isModalShown'],
   components: {
     Modal
   },
   methods: {
-    showModal: function() {
-      this.isModalShown = true;
-      this.$emit('true');
+    toggleModal: function() {
+      this.$emit('clicked');
     },
-    hideModal: function() {
-      this.isModalShown = false;
-      this.$emit('false');
-    }
   }
 }
 </script>

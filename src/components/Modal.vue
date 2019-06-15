@@ -1,8 +1,7 @@
 <template lang="html">
   <div class="modal">
-    <span @click="hideModal" class="btn--close">&#215;</span>
+    <span @click="toggleModal" class="btn--close">&#215;</span>
     <h2 class="modal-title">Send me an Email</h2>
-
     <form action="https://formspree.io/hannah.hch@gmail.com" method="POST">
       <div class="modal-form__group ">
         <input type="text" class="modal-form__input" name="name" required/>
@@ -28,6 +27,7 @@
 
 <script>
 export default {
+  props: ['toggleModal'],
   methods: {
     hideModal() {
       this.$emit('clicked');
@@ -46,6 +46,8 @@ export default {
     z-index: 3;
     padding: 50px 25px;
     width: 30%;
+    min-width: 300px;
+    margin: 0 auto;
     transform: translate(-50%, -50%);
   }
 
@@ -74,13 +76,16 @@ export default {
 
   .modal-form__input {
     font-size: 16px;
-    margin-bottom: 55px;
     display: block;
     width: 100%;
     position: relative;
     border: none;
     outline: 0;
     border-bottom: 1px solid var(--blue-grey);
+  }
+
+  .modal-form__input:not(.button) {
+    margin-bottom: 55px;
   }
 
   .modal-form__input:focus {
