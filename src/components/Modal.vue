@@ -5,16 +5,16 @@
     <form action="https://formspree.io/hannah.hch@gmail.com" method="POST">
       <div class="modal-form__group ">
         <input type="text" class="modal-form__input" name="name" required/>
-        <label class="modal-form__label" for="name">Name</label>
+        <label class="modal-form__label" for="name">Name<sup>*</sup></label>
       </div>
       <div class="modal-form__group ">
         <input type="email" class="modal-form__input" name="_replyto"required/>
-        <label class="modal-form__label" for="email">Email</label>
+        <label class="modal-form__label" for="email">Email<sup>*</sup></label>
       </div>
 
   		<div class="modal-form__group">
   			<input type="text" name="message" class="modal-form__input" required/>
-  			<label class="modal-form__label" for="message">Message</label>
+  			<label class="modal-form__label" for="message">Message<sup>*</sup></label>
   		</div>
 
       <div class="modal-form__group ">
@@ -37,7 +37,10 @@ export default {
 </script>
 
 <style lang="css">
-
+  sup {
+    color: var(--red);
+  }
+  
   .modal {
     position: absolute;
     background-color: var(--white);

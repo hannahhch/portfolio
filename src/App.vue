@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <span class="overlay"></span>
+    <span class="overlay" v-bind:class="{ shown: isModalShown }"></span>
     <div id="nav">
       <Nav v-on:clicked="determineBackgroundBlur" v-bind:isModalShown="isModalShown"/>
     </div>
@@ -31,12 +31,6 @@ export default {
   methods: {
     determineBackgroundBlur () {
       this.isModalShown = !this.isModalShown;
-      const overlay =  document.querySelector('.overlay');
-      if (this.isModalShown) {
-        overlay.classList.add('shown');
-      } else {
-        overlay.classList.remove('shown');
-      }
     },
   }
 }
@@ -49,6 +43,9 @@ export default {
     --blue-grey--dark: #576574;
     --white: #fff;
     --black: #000;
+    --red: #ED4C67;
+
+    --overlay: rgba(0, 0, 0, .7);
 
     --font-main: 'Poppins', sans-serif;
 
@@ -65,7 +62,7 @@ body {
 }
 
 .overlay.shown {
-  background: rgba(0, 0, 0, .7);
+  background: var(--overlay);
   position: fixed;
   height: 100%;
   width: 100%;
@@ -123,6 +120,7 @@ ul {
   font-size: 20px;
   margin-top: 20px;
   transition: all 300ms;
+  display: inline-block;
 }
 
 .button:hover {

@@ -47,6 +47,9 @@
     "year": 2017,
     "image": "tiy.png",
     "alt": "Click to see work on Tourify",
-    "url": "https://serene-brushlands-14696.herokuapp.com/"
+    "url": "https://serene-brushlands-14696.herokuapp.com/",
+    "projectImageOne": "tourify_one.jpg",
+    "projectImageTwo": "tourify_two.jpg",
+    "projectImageThree": "tourify_three.jpg"
   }]
 }
