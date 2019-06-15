@@ -1,38 +1,50 @@
 <template>
-  <div class="main">
-    <h2 class="project-title">{{ currentProject.name }}</h2>
-    <!-- TODO: make these images an array in the json and loop over -->
-    <div class="project-images-wrapper">
-      <div class="project-image-wrapper">
-        <img
-          class="image-mobile"
-          :src="require(`../assets/images/${currentProject.projectImageOne}`)"
-          alt=""/>
-      </div>
+  <main class="main">
+    <h2 v-if="currentProject.name" class="project-title">{{ currentProject.name }}</h2>
+    <h3 v-if="currentProject.year"><em>{{ currentProject.year }}</em></h3>
+    <ul v-if="currentProject.languages">
+      <li
+        class="project-language"
+        v-for="language in currentProject.languages">{{ language }}</li>
+    </ul>
+    <section class="project-section" v-if="currentProject.intro">
+      <p>{{ currentProject.intro }}</p>
+    </section>
 
-      <div class="project-image-wrapper">
-        <img
-          class="image-mobile"
-          :src="require(`../assets/images/${currentProject.projectImageTwo}`)"
-          alt=""/>
-      </div>
+    <section class="project-section" v-if="currentProject.description">
+      <p>{{ currentProject.description }}</p>
+    </section>
 
-      <div class="project-image-wrapper">
-        <img
-          class="image-mobile"
-          :src="require(`../assets/images/${currentProject.projectImageThree}`)"
-          alt=""/>
-      </div>
-
+    <div class="project-image-wrapper" v-if="currentProject.projectImage">
+      <img
+         class="project-image"
+         :src="require(`../assets/images/${currentProject.projectImage}`)"
+         :alt="currentProject.projectAlt"/>
     </div>
-    <a
-      class="button"
-      v-if="currentProject.url"
-      :href="currentProject.url"
-      target="_blank"
-      rel="noreferrer">
-    See the Site</a>
-  </div>
+
+    <section class="project-section" v-if="currentProject.wrapup">
+      <p>{{ currentProject.wrapup }}</p>
+    </section>
+
+    <div class="button-group">
+      <a
+        class="button button-margin"
+        v-if="currentProject.url"
+        :href="currentProject.url"
+        target="_blank"
+        rel="noreferrer">
+      Website</a>
+
+      <a
+        class="button button-margin"
+        v-if="currentProject.gitHub"
+        :href="currentProject.gitHub"
+        target="_blank"
+        rel="noreferrer">
+      Github Repo</a>
+    </div>
+
+  </main>
 </template>
 
 <script>
@@ -55,34 +67,55 @@ import axios from 'axios';
 </script>
 
 <style scoped lang="css">
-  .project-images-wrapper {
+  .main {
+    max-width: 1100px;
+    margin: 15px;
+  }
+
+  .project-section {
     display: flex;
-    justify-content: space-between;
-    margin-bottom: 25px;
     flex-direction: column;
-    padding: 25px;
+  }
+
+  .button-group {
+    margin-top: 25px;
+  }
+
+  .button-margin {
+    margin: 10px;
+  }
+
+  .project-language {
+    list-style: none;
+    background-color: var(--blue-grey--dark);
+    color: var(--white);
+    display: inline-block;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    margin-bottom: 10px;
   }
 
   .project-image-wrapper {
-    margin-bottom: 25px;
-  }
-  .main {
-    max-width: 1100px;
-    margin: 50px auto;
+    margin: 15px;
   }
 
-  .image-mobile {
+  .project-image {
     display: block;
     max-width: 100%;
   }
 
+
   @media screen and (min-width: 750px) {
     .main {
-      padding: 0 25px;
+        max-width: 1100px;
+        margin: 50px auto;
     }
 
-    .project-images-wrapper {
-      flex-direction: row;
+    .project-image-wrapper {
+      margin: 25px 200px 25px 0;
     }
   }
 
