@@ -7,6 +7,7 @@
         class="project-language"
         v-for="language in currentProject.languages">{{ language }}</li>
     </ul>
+
     <section class="project-section" v-if="currentProject.intro">
       <p>{{ currentProject.intro }}</p>
     </section>
@@ -82,7 +83,7 @@ import axios from 'axios';
   }
 
   .button-margin {
-    margin: 10px;
+    margin: 10px 10px 10px 0;
   }
 
   .project-language {
@@ -92,7 +93,7 @@ import axios from 'axios';
     display: inline-block;
     border-radius: 3px;
     padding: 5px 10px;
-    font-size: 18px;
+    font-size: 14px;
     text-transform: uppercase;
     margin-right: 10px;
     margin-bottom: 10px;

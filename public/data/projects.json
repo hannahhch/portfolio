@@ -1,12 +1,28 @@
 {
   "projects": [{
     "id": "cisco",
+    "languages": [
+      "Angular 8",
+      "Typescript",
+      "Bootstrap",
+      "Highcharts",
+      "rxjs",
+      "Jasmine"
+    ],
     "name": "Cisco",
     "year": 2019,
     "image": "cisco.jpg",
     "alt": "Click to see Cisco work"
   }, {
     "id": "first-bank",
+    "languages": [
+      "Wordpress",
+      "Vue",
+      "jQuery",
+      "Bootstrap",
+      "php",
+      "twig"
+    ],
     "name": "First Bank",
     "year": 2018,
     "image": "fb.jpg",
@@ -14,6 +30,13 @@
     "url": "https://localfirstbank.com/"
   }, {
     "id": "hill-center",
+    "languages": [
+      "Wordpress",
+      "php",
+      "jQuery",
+      "scss",
+      "Google analytics"
+    ],
     "name": "Hill Center",
     "year": 2018,
     "image": "hc.jpg",
@@ -21,6 +44,14 @@
     "url": "https://www.hillcenter.org/"
   }, {
     "id": "rourk",
+    "languages": [
+      "css animation",
+      "jQuery",
+      "Wordpress",
+      "php",
+      "scss",
+      "google analytics"
+    ],
     "name": "Rourk",
     "year": 2018,
     "image": "rourk.png",
@@ -28,6 +59,12 @@
     "url": "https://rourkcapital.com/"
   }, {
     "id": "fbomb",
+    "languages": [
+      "shopify",
+      "scss",
+      "jQuery",
+      "twig"
+    ],
     "name": "fbomb",
     "year": 2018,
     "image": "fbomb.jpg",
@@ -35,6 +72,12 @@
     "url": "https://www.dropanfbomb.com/"
   }, {
     "id": "e-conolight",
+    "languages": [
+      "HTML",
+      "SCSS",
+      "Magento 2",
+      "jQuery"
+    ],
     "name": "e-conolight",
     "year": 2017,
     "image": "econo.jpg",
