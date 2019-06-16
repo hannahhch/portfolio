@@ -52,6 +52,8 @@ export default {
     --font-thin: 100;
     --font-light-normal: 300;
     --font-normal: 400;
+
+    --large-moble: 480px;
 }
 
 body {
@@ -131,10 +133,6 @@ ul {
 /* Large Mobile */
 
 @media screen and (min-width: 480px) {
-
-    h2 {
-        font-size: 45px;
-    }
 
     p {
         font-size: 18px;

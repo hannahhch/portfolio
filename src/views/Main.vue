@@ -11,6 +11,7 @@
             :to="'/projects/' + project.id"
             class="portfolio-item"
             v-for="project in projects"
+            v-bind:key="project.id"
             :title="project.alt"
             :style="{
               'background-image': 'url(' + require(`../assets/images/${project.image}`) + ')'

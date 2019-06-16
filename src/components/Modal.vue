@@ -8,7 +8,7 @@
         <label class="modal-form__label" for="name">Name<sup>*</sup></label>
       </div>
       <div class="modal-form__group ">
-        <input type="email" class="modal-form__input" name="_replyto"required/>
+        <input type="email" class="modal-form__input" name="_replyto" required/>
         <label class="modal-form__label" for="email">Email<sup>*</sup></label>
       </div>
 
@@ -40,7 +40,7 @@ export default {
   sup {
     color: var(--red);
   }
-  
+
   .modal {
     position: absolute;
     background-color: var(--white);
@@ -48,8 +48,7 @@ export default {
     top: 50%;
     z-index: 3;
     padding: 50px 25px;
-    width: 30%;
-    min-width: 300px;
+    width: 80%;
     margin: 0 auto;
     transform: translate(-50%, -50%);
   }
@@ -112,6 +111,19 @@ export default {
   .modal-form__input:valid + .modal-form__label {
     top: -20px;
     font-size: 10px;
+  }
+
+  @media screen and (min-width: 700px) {
+    .modal {
+      width: 50%;
+      min-width: 300px;
+    }
+  }
+
+  @media screen and (min-width: 1150px) {
+    .modal {
+      width: 30%;
+    }
   }
 
 </style>
