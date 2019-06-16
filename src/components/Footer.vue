@@ -15,7 +15,7 @@
           <a href="https://www.linkedin.com/in/hannahchudson/" target="_blank" class="footer-link">
               LinkedIn
           </a>
-          <a href="https://codepen.io/dashboard/" target="_blank" class="footer-link">
+          <a href="https://codepen.io/hannahhch/" target="_blank" class="footer-link">
               CodePen
           </a>
       </div>
