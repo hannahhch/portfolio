@@ -7,12 +7,15 @@
       "Bootstrap",
       "Highcharts",
       "rxjs",
-      "Jasmine"
+      "json"
     ],
-    "name": "Cisco",
+    "name": "Cisco (Business Critical Insights App)",
     "year": 2019,
     "image": "cisco.jpg",
-    "alt": "Click to see Cisco work"
+    "alt": "Click to see Cisco work",
+    "intro": "When I started my job at Smashing Boxes, I joined the Cisco UI team. This is an integrated team of contractors and full time Cisco employees, who all work on building Angular applications. I had a little bit of experience with React and Vue through The Iron Yard, my last job, and personal projects, but nothing in Angular. I was excited to get the opportunity to really focus on a specific framework.",
+    "description": "When I started learning and working on the application, there were so many new topics to learn about. In addition to Angular, I was introduced to TypeScript and a little bit of rxjs. I immediately loved TypeScript, and felt that having type definition made learning it and Angular so much easier. Unfortunately, we were working with some unreliable APIs, so making interfaces for expected data responses became pretty important and valuable as well. Towards the end, my team and I often found ourselves writing our own mock APIs. ",
+    "wrapup": "End though the app didn't launch (through reasons out of our control), I learned a ton of valuable skills. I'm excited to use them in the next Cisco application, and continue to learn more about Angular and TypeScript!"
   }, {
     "id": "first-bank",
     "languages": [
