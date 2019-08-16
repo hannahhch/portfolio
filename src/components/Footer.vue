@@ -52,6 +52,7 @@
     width: 100%;
     text-align: center;
     padding-top: 20px;
+    flex-shrink: 0;
     position: relative;
 }
 

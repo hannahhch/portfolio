@@ -61,8 +61,25 @@ body {
     color: var(--blue-grey--dark);
     font-family: var(--font-main);
     background-color: rgb(87, 101, 116, .1);
+    position: relative;
+    padding-bottom: 6rem;
+    height: 100%;
 }
 
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+main {
+  flex: 1 0 auto;
+}
 .overlay.shown {
   background: var(--overlay);
   position: fixed;

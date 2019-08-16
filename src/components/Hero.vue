@@ -18,10 +18,10 @@ export default {
 
 .hero-section {
     background-image: url('../assets/images/hero.jpg');
-    background-position: center;
+    background-position: 70%;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    /* background-attachment: fixed; */
     width: 100%;
     height: 80vh;
     margin: 0 auto;
@@ -65,6 +65,7 @@ export default {
   .hero-section {
       padding-top: calc(200 / 600 * 100%);
       height: 1px;
+      background-position: center;
   }
 
   .hero-section__title {
