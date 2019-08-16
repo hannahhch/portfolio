@@ -30,7 +30,7 @@
 <style  lang="css">
 
 .footer-link__to-top {
-  background-color: var(--blue-grey--dark);
+  background-color: var(--blue--accent);
   width: 35px;
   height: 35px;
   position: absolute;
@@ -54,6 +54,7 @@
     padding-top: 20px;
     flex-shrink: 0;
     position: relative;
+    border-bottom: solid 10px var(--blue--accent);
 }
 
 .footer-content {

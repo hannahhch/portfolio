@@ -57,8 +57,8 @@ export default {
   padding-right: 15px;
   text-align: right;
   text-transform: capitalize;
-  background-color: var(--blue-grey);
-  color: var(--blue-grey--dark);
+  background-color: var(--blue--accent);
+  color: var(--white);
 }
 
 @media screen and (min-width: 750px) {

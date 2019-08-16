@@ -41,6 +41,7 @@ export default {
 :root {
     --blue-grey: #c8d6e5;
     --blue-grey--dark: #576574;
+    --blue--accent: #1289A7;
     --white: #fff;
     --black: #000;
     --red: #ED4C67;
@@ -115,7 +116,7 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   transition: all 300ms;
-  border-bottom: solid 1px transparent;
+  border-bottom: solid 2px transparent;
   transition: all 300ms linear;
   opacity: .7;
 }
@@ -123,27 +124,32 @@ a {
 a:hover {
   opacity: 1;
   cursor: pointer;
-  border-bottom: solid 1px var(--blue-grey--dark);
+  border-bottom: solid 2px var(--blue--accent);
+  color: var(--blue--accent);
 }
 
 ul {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .button {
   text-decoration: none;
   background-color: var(--blue-grey);
   color: var(--blue-grey--dark);
-  padding: 10px 25px;
-  border: solid 1px transparent;
+  padding: 15px 25px;
+  border: solid 2px transparent;
   font-size: 20px;
   margin-top: 20px;
   transition: all 300ms;
   display: inline-block;
+  max-width: 250px;
+  border-radius: 4px;
+  text-transform: uppercase;
 }
 
 .button:hover {
   border-color: var(--blue-grey--dark);
+  color: var(--blue-grey--dark);
   cursor: pointer;
 }
 

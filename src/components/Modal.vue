@@ -1,7 +1,7 @@
 <template lang="html">
   <div class="modal">
     <span @click="toggleModal" class="btn--close">&#215;</span>
-    <h2 class="modal-title">Send me an Email</h2>
+    <h2 class="modal-title">Get in Touch!</h2>
     <form action="https://formspree.io/hannah.hch@gmail.com" method="POST">
       <div class="modal-form__group ">
         <input type="text" class="modal-form__input" name="name" required/>
@@ -51,6 +51,7 @@ export default {
     width: 80%;
     margin: 0 auto;
     transform: translate(-50%, -50%);
+    max-width: 500px;
   }
 
   .modal-title {

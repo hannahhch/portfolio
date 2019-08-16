@@ -62,7 +62,7 @@ export default {
     transform: skewY(-66deg);
     transform-origin: top left;
     height: 100%;
-    background: var(--blue-grey--dark);
+    background: var(--blue--accent);
     bottom: 0
   }
 
