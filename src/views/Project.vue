@@ -5,6 +5,7 @@
     <ul v-if="currentProject.languages">
       <li
         class="project-language"
+        v-bind:key="language.id"
         v-for="language in currentProject.languages">{{ language }}</li>
     </ul>
 
@@ -69,8 +70,10 @@ import axios from 'axios';
 
 <style scoped lang="css">
   .main {
+    background-color: var(--gray-background);
     max-width: 1100px;
-    margin: 15px;
+    height: 100%;
+    padding: 0 15px;
   }
 
   .project-section {
@@ -112,7 +115,8 @@ import axios from 'axios';
   @media screen and (min-width: 750px) {
     .main {
         max-width: 1100px;
-        margin: 50px auto;
+        padding: 0 50px;
+        margin: 0 auto;
     }
 
     .project-image-wrapper {

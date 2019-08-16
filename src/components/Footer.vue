@@ -45,6 +45,7 @@
 
 .footer-link__to-top:hover {
   border: none;
+  color: var(--white);
 }
 
 .footer {
@@ -59,6 +60,7 @@
 
 .footer-content {
   max-width: 1100px;
+  width: 90%;
   margin: 0 auto;
   display: flex;
   flex-direction: column;

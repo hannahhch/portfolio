@@ -54,6 +54,7 @@ export default {
   .portfolio-section {
     overflow: hidden;
     position: relative;
+    background-color: var(--gray-background);
   }
 
   .portfolio-setion--split {
@@ -62,7 +63,7 @@ export default {
     transform: skewY(-66deg);
     transform-origin: top left;
     height: 100%;
-    background: var(--blue--accent);
+    background-color: var(--blue--accent);
     bottom: 0
   }
 

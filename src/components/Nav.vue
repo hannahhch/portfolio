@@ -31,7 +31,7 @@ export default {
 <style lang="css">
 
 .navigation-wrapper {
-  background: white;
+  background-color: var(--gray-background);
 }
 
 .navigation{

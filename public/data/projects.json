@@ -10,6 +10,8 @@
       "json"
     ],
     "name": "Cisco",
+    "projectImage": "cisoc_one.jpg",
+    "projectAlt": "Cisco logo", 
     "year": 2019,
     "image": "cisco.jpg",
     "alt": "Click to see Cisco work",
@@ -95,7 +97,8 @@
     "year": 2017,
     "image": "econo.jpg",
     "alt": "Click to see work on e conolight",
-    "url": "https://www.e-conolight.com/"
+    "url": "https://www.e-conolight.com/",
+    "intro": "E-conoglight is a brand under Cree - an international company that creates and sells lighting, electrical supplies and more. When I started at Rivers Agency, the new e-conolight e-commerce site was underway. This was the first project I worked on at Rivers Agency."
 
   }, {
     "id": "tourify",
