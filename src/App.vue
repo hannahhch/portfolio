@@ -15,8 +15,6 @@ import Footer from './components/Footer'
 import Vue from 'vue'
 import vueSmoothScroll from 'vue2-smooth-scroll'
 
-
-
 Vue.use(vueSmoothScroll)
 
 export default {
@@ -39,26 +37,9 @@ export default {
 </script>
 
 <style>
+
 @import './assets/styles/helpers.css';
-
-:root {
-    --blue-grey: #c8d6e5;
-    --blue-grey--dark: #576574;
-    --blue--accent: #1289A7;
-    --white: #fff;
-    --black: #000;
-    --red: #ED4C67;
-    --gray-background: rgb(87, 101, 116, .1);
-    --overlay: rgba(0, 0, 0, .7);
-
-    --font-main: 'Poppins', sans-serif;
-
-    --font-thin: 100;
-    --font-light-normal: 300;
-    --font-normal: 400;
-
-    --large-moble: 480px;
-}
+@import './assets/styles/variables.css';
 
 body, html {
     margin: 0;
@@ -73,6 +54,8 @@ body, html {
   display: flex;
   flex-direction: column;
   min-height: 100%;
+      background-color: var(--gray-background);
+
 }
 
 main {

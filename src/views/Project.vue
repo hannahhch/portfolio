@@ -70,8 +70,8 @@ import axios from 'axios';
 
 <style scoped lang="css">
   .main {
-    background-color: var(--gray-background);
     max-width: 1100px;
+    background-color: var(--white);
     height: 100%;
     padding: 0 15px;
   }

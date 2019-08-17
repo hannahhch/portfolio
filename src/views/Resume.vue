@@ -119,6 +119,12 @@
   </main>
 </template>
 
+<script>
+
+export default {}
+
+</script>
+
 <style scoped lang="css">
   hr {
     border-color: rgb(87, 101, 116, .1);
