@@ -41,6 +41,10 @@ export default {
 @import './assets/styles/helpers.css';
 @import './assets/styles/variables.css';
 
+body {
+  background-color: var(--gray-background);
+}
+
 body, html {
     margin: 0;
     color: var(--blue-grey--dark);
@@ -54,13 +58,12 @@ body, html {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-      background-color: var(--gray-background);
-
 }
 
 main {
   flex: 1 0 auto;
 }
+
 .overlay.shown {
   background: var(--overlay);
   position: fixed;

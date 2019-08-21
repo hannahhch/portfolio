@@ -71,9 +71,9 @@ import axios from 'axios';
 <style scoped lang="css">
   .main {
     max-width: 1100px;
-    background-color: var(--white);
     height: 100%;
     padding: 0 15px;
+    margin: 40px 0;
   }
 
   .project-section {
@@ -102,13 +102,10 @@ import axios from 'axios';
     margin-bottom: 10px;
   }
 
-  .project-image-wrapper {
-    margin: 15px;
-  }
-
   .project-image {
     display: block;
     max-width: 100%;
+    margin: 30px 0;
   }
 
 
@@ -116,11 +113,7 @@ import axios from 'axios';
     .main {
         max-width: 1100px;
         padding: 0 50px;
-        margin: 0 auto;
-    }
-
-    .project-image-wrapper {
-      margin: 25px 200px 25px 0;
+        margin: 40px auto;
     }
   }
 

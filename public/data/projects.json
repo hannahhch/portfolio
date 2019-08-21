@@ -18,7 +18,26 @@
     "intro": "When I started my job at Smashing Boxes, I joined the Cisco UI team. This is an integrated team of contractors and full time Cisco employees, who all work on building Angular applications. I had a little bit of experience with React and Vue through The Iron Yard, my last job, and personal projects, but nothing in Angular. I was excited to get the opportunity to really focus on a specific framework.",
     "description": "When I started learning and working on the application, there were so many new topics to learn about. In addition to Angular, I was introduced to TypeScript and a little bit of rxjs. I immediately loved TypeScript, and felt that having type definition made learning it and Angular so much easier. Unfortunately, we were working with some unreliable APIs, so making interfaces for expected data responses became pretty important and valuable as well. Towards the end, my team and I often found ourselves writing our own mock APIs. ",
     "wrapup": "End though the app didn't launch (through reasons out of our control), I learned a ton of valuable skills. I'm excited to use them in the next Cisco application, and continue to learn more about Angular and TypeScript!"
-  }, {
+  },
+  {
+    "id": "keyframes",
+    "languages": [
+      "css",
+      "css animation",
+      "html"
+    ],
+    "name": "Intro to CSS Transitions, Transforms and Keyframes",
+    "projectImage": "keyframes_one.jpg",
+    "projectAlt": "Slide from keyframes class: Transition Timing Function Determines the in-between steps of the transition Example: Does the animation start off slow and get faster? Default value is ease",
+    "year": 2018,
+    "image": "keyframes.jpg",
+    "alt": "intro to CSS transitions, transforms and keyframes hannah hudson",
+    "intro": "I created this lesson for a CSS crash course. I chose to focus on animation, because its something fun and a little bit different than your average \"Intro to CSS\" course. I had about 10 people in attendance for this Meetup, and it led me to teach another CSS and animation crash course centered around coding holiday cards.",
+    "description": "This class followed the slides and focused on terms, but my holiday card course was more of an interative code-along. I had two levels of cards to show the class, since I didn't quite know how much coding experience my students would have.",
+    "wrapup": "Overall, the class went reallt well! My students were amazed and excited at how much animation is possible with CSS alone. In future, I'd love to teach this class in two parts or for two hours to be better able to explain the key properties of animation and transition.",
+    "url": "https://hannahhch.github.io/keyframes-crash-course/slides/slides.html#slide-0"
+  },
+  {
     "id": "first-bank",
     "languages": [
       "Wordpress",

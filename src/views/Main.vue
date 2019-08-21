@@ -5,7 +5,7 @@
     <section class="portfolio-section">
       <span class="portfolio-setion--split"></span>
       <div class="portfolio-section__content">
-        <h2 class="portfolio-section__title">Current Projects</h2>
+        <h2 class="portfolio-section__title">My Work</h2>
         <div class="portfolio-items">
           <router-link
             :to="'/projects/' + project.id"
