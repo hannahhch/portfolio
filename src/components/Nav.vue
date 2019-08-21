@@ -2,8 +2,8 @@
   <div class="navigation-wrapper">
 
     <nav class="navigation" id="top">
-      <router-link :to="{ name: 'main' }" class="navigation-link">Home</router-link>
-      <router-link :to="{ name: 'resume' }" class="navigation-link">Resume</router-link>
+      <router-link to="/" class="navigation-link">Home</router-link>
+      <router-link to="/resume" class="navigation-link">Resume</router-link>
       <a @click="toggleModal" class="navigation-link">Contact</a>
     </nav>
 
