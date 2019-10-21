@@ -136,6 +136,12 @@ ul {
   cursor: pointer;
 }
 
+.wrapper {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 25px;
+}
+
 /* Large Mobile */
 
 @media screen and (min-width: 480px) {

@@ -10,7 +10,7 @@
       </div>
     </div>
 
-    <div class="resume-wrapper">
+    <div class="wrapper">
       <section>
         <h2 class="section-title">
           Technical Skills
@@ -170,12 +170,6 @@ export default {}
   .resume-image {
     border-radius: 50%;
     margin-bottom: 25px;
-  }
-
-  .resume-wrapper {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 25px;
   }
 
   .section-title {
