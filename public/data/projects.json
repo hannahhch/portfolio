@@ -77,24 +77,6 @@
     "url": "https://chapel.duke.edu/"
   },
   {
-    "id": "keyframes",
-    "languages": [
-      "css",
-      "css animation",
-      "html"
-    ],
-    "name": "Intro to CSS Transitions, Transforms and Keyframes",
-    "projectImage": "keyframes_one.jpg",
-    "projectAlt": "Slide from keyframes class: Transition Timing Function Determines the in-between steps of the transition Example: Does the animation start off slow and get faster? Default value is ease",
-    "year": 2018,
-    "image": "keyframes.jpg",
-    "alt": "intro to CSS transitions, transforms and keyframes hannah hudson",
-    "intro": "I created this lesson for a CSS crash course. I chose to focus on animation, because its something fun and a little bit different than your average \"Intro to CSS\" course. I had about 10 people in attendance for this Meetup, and it led me to teach another CSS and animation crash course centered around coding holiday cards.",
-    "description": "This class followed the slides and focused on terms, but my holiday card course was more of an interative code-along. I had two levels of cards to show the class, since I didn't quite know how much coding experience my students would have.",
-    "wrapup": "Overall, the class went reallt well! My students were amazed and excited at how much animation is possible with CSS alone. In future, I'd love to teach this class in two parts or for two hours to be better able to explain the key properties of animation and transition.",
-    "url": "https://hannahhch.github.io/keyframes-crash-course/slides/slides.html#slide-0"
-  },
-  {
     "id": "first-bank",
     "languages": [
       "Wordpress",

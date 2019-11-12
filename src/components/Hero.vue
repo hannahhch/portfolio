@@ -4,6 +4,7 @@
       <div class="hero-section__text">
         <h1 class="hero-section__title">Hannah Hudson</h1>
         <h2 class="hero-section__subtitle">Frontend Software Engineer</h2>
+        <h3 class="hero-section__extra">+ instructor!</h3>
       </div>
     </div>
   </section>
@@ -62,6 +63,12 @@ export default {
   color: var(--white);
 }
 
+.hero-section__extra {
+  background-color: var(--teal);
+  display: inline;
+  padding: 0 5px;
+}
+
 @media screen and (min-width: 750px) {
   .hero-section {
       padding-top: calc(200 / 600 * 100%);
@@ -75,6 +82,13 @@ export default {
 
   .hero-section__subtitle {
     font-size: 30px;
+  }
+
+  .hero-section__extra {
+    position: absolute;
+    right: -55px;
+    bottom: -27px;
+    transform: rotate(-25deg);
   }
 }
 

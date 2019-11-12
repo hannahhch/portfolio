@@ -30,7 +30,7 @@
 <style  lang="css">
 
 .footer-link__to-top {
-  background-color: var(--blue--accent);
+  background-color: var(--teal);
   width: 35px;
   height: 35px;
   position: absolute;

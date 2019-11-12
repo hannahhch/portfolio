@@ -47,6 +47,11 @@
         <h2 class="section-title">
           Professional Experience
         </h2>
+          <h3 class="info-title">
+          <div> <em><span class="font--bold">Instructional Assistant</span> | <a href="https://turing.io" target="_blank" rel="noreferrer">The Turing School of Software and Design</a> | Denver, CO</em></div>
+          <div class="blue--accent">October 2019 - Present</div>
+        </h3>
+        <hr>
         <h3 class="info-title">
           <div> <em><span class="font--bold">Software Engineer</span> | <a href="https://smashingboxes.com/" target="_blank" rel="noreferrer">Smashing Boxes</a> | Durham, NC -> Remote</em></div>
           <div class="blue--accent">March 2019 - Present</div>

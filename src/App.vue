@@ -95,9 +95,9 @@ p {
 }
 
 a {
-  color: var(--dark-purple);
+  color: var(--blue--accent);
+  font-weight: 700;
   text-decoration: none;
-  text-transform: uppercase;
   transition: all 300ms;
   border-bottom: solid 2px transparent;
   transition: all 300ms linear;
@@ -108,7 +108,6 @@ a:hover {
   opacity: 1;
   cursor: pointer;
   border-bottom: solid 2px var(--blue--accent);
-  color: var(--blue--accent);
 }
 
 ul {
