@@ -119,7 +119,7 @@ ul {
   background-color: var(--blue-grey);
   color: var(--blue-grey--dark);
   padding: 15px 25px;
-  border: solid 2px transparent;
+  border: solid 2px var(--blue-grey--dark);
   font-size: 20px;
   margin-top: 20px;
   transition: all 300ms;
