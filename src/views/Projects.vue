@@ -30,7 +30,7 @@ export default {
     }
   },
    mounted() {
-     axios.get('../data/projects.json').then(response => {
+     axios.get('../data/data.json').then(response => {
        this.projects = response.data.projects;
      })
    }
