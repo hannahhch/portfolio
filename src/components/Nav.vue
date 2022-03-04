@@ -5,6 +5,7 @@
       <router-link to="/" class="navigation-link">Home</router-link>
       <router-link to="/resume" class="navigation-link">Resume</router-link>
       <router-link to="/projects" class="navigation-link">Projects</router-link>
+      <router-link to="/lessons" class="navigation-link">Lessons</router-link>
       <a @click="toggleModal" class="navigation-link">Contact</a>
     </nav>
 

@@ -5,6 +5,7 @@ import Main from './views/Main.vue'
 import Resume from './views/Resume.vue'
 import Project from './views/Project.vue'
 import Projects from './views/Projects.vue'
+import Lessons from './views/Lessons.vue'
 
 Vue.use(Router)
 
@@ -32,6 +33,10 @@ export default new Router({
     {
       path: '/projects/:id',
       component: Project
+    },
+    {
+      path: '/lessons',
+      component: Lessons
     }
   ]
 })
