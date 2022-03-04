@@ -64,7 +64,7 @@ export default {
 
 @media screen and (min-width: 750px) {
   .hero-section {
-      padding-top: calc(200 / 600 * 100%);
+      padding-top: calc(200 / 800 * 100%);
       height: 1px;
       background-position: center;
   }

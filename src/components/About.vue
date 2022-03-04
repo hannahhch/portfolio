@@ -7,6 +7,7 @@
       <ul class="about-section--list">
         <li>Scuba diving</li>
         <li>Traveling</li>
+        <li>Playing the piano</li>
         <li>Swimming</li>
         <li>Caves</li>
         <li>Weird earrings</li>
