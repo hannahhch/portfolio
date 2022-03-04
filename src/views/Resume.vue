@@ -16,30 +16,25 @@
           Technical Skills
         </h2>
         <ul class="skills-list">
-          <li>HTML5,</li>
-          <li>CSS3/SASS,</li>
-          <li>CSS Animation,</li>
+          <li>React,</li>
+          <li>Mocha</li>
+          <li>Chai</li>
+          <li>Web Accessibility</li>
           <li>JavaScript,</li>
-          <li>jQuery,</li>
-          <li>JSON,</li>
-          <li>WCAG,</li>
-          <li>Wordpress,</li>
-          <li>Shopify,</li>
-          <li>PHP,</li>
-          <li>Twig,</li>
-          <li>Node,</li>
-          <li>Express,</li>
           <li>Git,</li>
           <li>GitHub,</li>
-          <li>GitLab,</li>
-          <li>Bitbucket,</li>
-          <li>Heroku,</li>
+          <li>CSS3/Sass/LESS,</li>
+          <li>Angular,</li>
+          <li>Typescript,</li>
+          <li>HTML5</li>
           <li>React,</li>
           <li>React Native,</li>
+          <li>CSS Animation,</li>
           <li>Vue,</li>
-          <li>Angular 8,</li>
-          <li>Typescript,</li>
-          <li>Jasmine</li>
+          <li>PHP,</li>
+          <li>Shopify,</li>
+          <li>Wordpress,</li>
+          <li>Bitbucket,</li>
         </ul>
       </section>
       <hr>
@@ -48,21 +43,27 @@
           Professional Experience
         </h2>
           <h3 class="info-title">
-          <div> <em><span class="font--bold">Instructional Assistant</span> | <a href="https://turing.io" target="_blank" rel="noreferrer">The Turing School of Software and Design</a> | Denver, CO</em></div>
+          <div> <em><span class="font--bold">Frontend Instructor</span> | <a href="https://turing.io" target="_blank" rel="noreferrer">The Turing School of Software and Design</a> | Denver, CO -> Remote</em></div>
           <div class="blue--accent">October 2019 - Present</div>
         </h3>
+        <p>Taught over 400 students frontend engineering skills.</p>
+        <p>Continuously iterated on improving the frontend curriculum by documenting pain points (for both students and instructors) from one section of the program to the next.</p>
+        <p> Mentored new instructors; providing instructional support and guidance. Assisted many of these instructors on their own growth path at Turing. I also created tangible resources to help with onboarding.</p>
+        <p>Created new resources, projects and exercises for students. One example of this is a bank of advent calendar-style exercises for extra repetition practice. </p>
         <hr>
         <h3 class="info-title">
           <div> <em><span class="font--bold">Software Engineer</span> | <a href="https://smashingboxes.com/" target="_blank" rel="noreferrer">Smashing Boxes</a> | Durham, NC -> Remote</em></div>
           <div class="blue--accent">March 2019 - Present</div>
         </h3>
-        <p>At Smashing Boxes, I build frontend applications to meet client’s needs. I have used React, React Native and Angular (with Typescript) and have gained experience working in different team sizes and dynamics. The first project I worked on was quite large, and involved creating a dashboard to display business critical insights for customers. My role involved creating the UI, and pulling from many different API endpoints to build out components with Angular. I’ve worked on multiple projects since, and have become the go-to for CSS, and animation at Smashing Boxes .</p>
+        <p>Quickly learned to work with multiple technologies to build frontend applications to meet the needs of clients of various sizes, from startups to enterprises like Cisco.</p>
+        <p>Became the in-house expert for building CSS micro animations and debugging browser inconsistencies. </p>
         <hr>
         <h3 class="info-title">
           <div><em> <span class="font--bold">Frontend Developer</span> | <a href="https://riversagency.com/" target="_blank" rel="noreferrer">Rivers Agency</a> | Chapel Hill, NC</em></div>
           <div class="blue--accent">November 2017 - February 2019</div>
         </h3>
-        <p>At Rivers Agency I wrote responsive front end code to fit the needs of many diverse clients. I have created CMS pages; writing HTML, SASS, PHP and jQuery.  I attended a training in web accessibility principles, and brought back what I learned to Rivers. I held multiple training sessions for my coworkers, and created a checklist for designers and developers to assist with implementing these standards.</p>
+        <p>Attended a training in web accessibility principles, and brought back what I learned to my coworkers through lunch and learn sessions. This decreased last minute accessibility fixes, and added accessibility compliance to our service offerings.</p>
+        <p>Built responsive websites to meet the needs of multiple clients. I provided training on content entry and site maintenance to clients as a part of the handoff at the end of engagements.</p>
         <hr>
         <h3 class="info-title">
           <div><em><span class="font--bold">Special Education Teacher</span> | Chapel Hill High School, NC</em></div>
@@ -96,6 +97,12 @@
         <h2 class="section-title">
           Community Activities
         </h2>
+        <h3 class="info-title">
+          <div><em>
+            <a target="_blank" rel="noreferrer" href="https://turing.io">Volunteer for Joan with Joan</a> | Volunteer teacher for coding workshop for women+</em></div>
+          <div class="blue--accent">February 2022</div>
+        </h3>
+        <hr>
         <h3 class="info-title">
           <div><em>
             <a target="_blank" rel="noreferrer" href="https://www.momentumlearn.com/">Momentum Ambassador</a> | Mentor and volunteer teacher for  local code school</em></div>
