@@ -176,12 +176,5 @@
     "intro": "Tourify is a web application designed to guide users on a historic tour of downtown Durham, NC. I worked on Tourify for my final project at The Iron Yard (coding bootcamp). While not a native app, my team and I built Tourify with mobile designs in mind. We saw users looking at their phones to guide them to different tour stops as shown on the app. At The Iron Yard, there were about 5 final project teams, and I was initially on a different one. Unfortunately, one of my team members would not be participating in final projects, so the decision was made to split up the remaining members into existing groups. I missed the first 2 planning days of tourify, and the team was already made up of 2 frontend and 2 backend developers. I was a little worried that roles were already assigned, and that there wasn't anything I could focus on. Luckily, all of my new team members were welcoming and glad that I joined the team.",
     "description": "We only had 2 weeks to create the app, and they really wanted someone to figure out how to add actual maps and geolocation to the app. It was something we had never done (especially within a React app). The alternative was to use screenshots of locations, so I volunteered to dive into the Google Maps API. Figuring out Google Maps was a fun challenge. I found so many tutorials for using the API, but it was a whole different issue making it work with React. I was overjoyed when I figured out how to embedded the different maps, that I went for geolocation too! It was really cool having that feature, so that a user could see about how far away they were from a tour stop. ",
     "wrapup": "Working on Tourify was my first taste at working on a real dev team, and I was ready for it! I throughly enjoyed all of the individual projects at The Iron Yard, but I was ready to see what it would be like at a real dev job. With my background as a high school special education teacher, this was all new to me. Overall, I'm happy with how the final project went, both working with others on a team, learning new skills and even presenting the final creation on demo day. It was a little nervewracking, but great to speak about my part in the project, and chat with employeers about it afterwards. I can even credit getting my first developer job to Tourify!"
-  }],
-  "lessons": [
-    {
-      "id": 1,
-      "title": "Workflow: PRs and GH Communication",
-      "url": "https://www.youtube.com/embed?v=II5dCQVQLm8&list=PL1Y67f0xPzdPuzOOFv9hZXD69eJEwIf-j&index=4"
-    }
-  ]
+  }]
 }

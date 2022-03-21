@@ -60,7 +60,7 @@ import axios from 'axios';
       }
     },
     mounted() {
-      axios.get('../data/data.json').then(response => {
+      axios.get('../data/projects.json').then(response => {
         let projects = response.data.projects;
         this.currentProject = projects.find(project => project.id === this.currentId);
       })

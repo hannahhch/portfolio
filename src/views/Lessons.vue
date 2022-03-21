@@ -26,9 +26,9 @@ export default {
     }
   },
    mounted() {
-     axios.get('../data/data.json').then(response => {
+     axios.get('../data/lessons.json').then(response => {
        this.lessons = response.data.lessons;
-     })
+     });
    }
 }
 

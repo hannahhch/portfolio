@@ -21,7 +21,7 @@ export default {
     About,
   },
   mounted() {
-     axios.get('../data/data.json').then(response => {
+     axios.get('../data/projects.json').then(response => {
        this.projects = response.data.projects;
      });
    }
