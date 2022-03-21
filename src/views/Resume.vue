@@ -24,7 +24,7 @@
         <h4 class="blue--accent">{{ exp.dates }}</h4>
         <ul v-if="exp.duties" class="experience-list">
           <li 
-            v-for="duty in exp.duties"
+            v-for="(duty, index) in exp.duties"
             v-bind:key="`${duty}-${index}`"
           >
             {{ duty }}
@@ -32,7 +32,7 @@
         </ul>
         <ul v-if="exp.skills" class="skills-list">
           <li 
-            v-for="skill in exp.skills"
+            v-for="(skill, index) in exp.skills"
             v-bind:key="`${skill}-${index}`"
             >
             {{ skill }}
@@ -195,6 +195,7 @@ export default {
   @media screen and (min-width: 1000px) {
     .info-title {
       flex-direction: row;
+      font-size: 22px;
     }
   }
 </style>
