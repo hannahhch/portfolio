@@ -2,15 +2,15 @@
   <section class="about-section">
     <div class="about-section--wrapper">
       <h2>Hello, I'm Hannah.</h2>
-      <h3>I am a frontend engineer and educator currently living in Denver, Colorado. I currently work as an Instructor at the <a href="https://turing.io/">Turing School of Software and Design</a>.</h3>
-      <p>My hobbies change up pretty frequently, but I'm currently excited about:</p>
+      <h3>I am a frontend engineer and educator currently living in Denver, Colorado.</h3>
+      <p>My hobbies change up pretty frequently, but I'm currently excited about the following!</p>
       <ul class="about-section--list">
         <li>Scuba diving</li>
         <li>Traveling</li>
         <li>Playing the piano</li>
         <li>Swimming</li>
         <li>Caves</li>
-        <li>Weird earrings</li>
+        <li>Fun earrings</li>
       </ul>
     </div>
   </section>

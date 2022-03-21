@@ -17,16 +17,16 @@
         </h2>
         <ul class="skills-list">
           <li>React,</li>
-          <li>Mocha</li>
-          <li>Chai</li>
-          <li>Web Accessibility</li>
+          <li>Mocha,</li>
+          <li>Chai,</li>
+          <li>Web Accessibility,</li>
           <li>JavaScript,</li>
           <li>Git,</li>
           <li>GitHub,</li>
           <li>CSS3/Sass/LESS,</li>
           <li>Angular,</li>
           <li>Typescript,</li>
-          <li>HTML5</li>
+          <li>HTML5,</li>
           <li>React,</li>
           <li>React Native,</li>
           <li>CSS Animation,</li>
@@ -34,7 +34,7 @@
           <li>PHP,</li>
           <li>Shopify,</li>
           <li>Wordpress,</li>
-          <li>Bitbucket,</li>
+          <li>Bitbucket</li>
         </ul>
       </section>
       <hr>
@@ -44,7 +44,7 @@
         </h2>
           <h3 class="info-title">
           <div> <em><span class="font--bold">Frontend Instructor</span> | <a href="https://turing.io" target="_blank" rel="noreferrer">The Turing School of Software and Design</a> | Denver, CO -> Remote</em></div>
-          <div class="blue--accent">October 2019 - Present</div>
+          <div class="blue--accent">October 2019 - March 2022</div>
         </h3>
         <p>Taught over 400 students frontend engineering skills.</p>
         <p>Continuously iterated on improving the frontend curriculum by documenting pain points (for both students and instructors) from one section of the program to the next.</p>
@@ -99,7 +99,7 @@
         </h2>
         <h3 class="info-title">
           <div><em>
-            <a target="_blank" rel="noreferrer" href="https://turing.io">Volunteer for Joan with Joan</a> | Volunteer teacher for coding workshop for women+</em></div>
+            <a target="_blank" rel="noreferrer" href="https://turing.io">Volunteer for Code with Joan</a> | Volunteer teacher for coding workshop for women+</em></div>
           <div class="blue--accent">February 2022</div>
         </h3>
         <hr>
