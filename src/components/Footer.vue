@@ -1,12 +1,12 @@
 <template lang="html">
   <footer class="footer">
     <a v-smooth-scroll href="#top" class="footer-link__to-top">
-      <div>&#8963;</div>
+      &#8963;
     </a>
     <div class="footer-content">
       <div class="footer-content--left">
           <h3 class="footer-content--left__header">Hannah Hudson</h3>
-          <a href="mailto:hannah.hch@gmail.com">hannah.hch@gmail.com</a>
+          <a target="_blank" rel="noreferrer" href="mailto:hannah.hch@gmail.com">hannah.hch@gmail.com</a>
       </div>
       <div class="footer-content--right">
           <a href="https://github.com/hannahhch" target="_blank" class="footer-link">

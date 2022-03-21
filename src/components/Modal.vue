@@ -2,7 +2,7 @@
   <div class="modal">
     <span @click="toggleModal" class="btn--close">&#215;</span>
     <h2 class="modal-title">Get in Touch!</h2>
-    <p>Email me at <a href="mailto:hannah.hch@gmail.com">hannah.hch@gmail.com</a> or send me a message on <a href="https://www.linkedin.com/in/hannahchudson/" target="_blank"
+    <p>Email me at <a target="_blank" rel="noreferrer" href="mailto:hannah.hch@gmail.com">hannah.hch@gmail.com</a> or send me a message on <a href="https://www.linkedin.com/in/hannahchudson/" target="_blank"
         rel="noreferrer">LinkedIn</a></p>
   </div>
 </template>
