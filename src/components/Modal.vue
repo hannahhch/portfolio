@@ -2,26 +2,8 @@
   <div class="modal">
     <span @click="toggleModal" class="btn--close">&#215;</span>
     <h2 class="modal-title">Get in Touch!</h2>
-    <form action="https://formspree.io/f/hannah.hch@gmail.com" method="POST">
-      <div class="modal-form__group ">
-        <input type="text" class="modal-form__input" name="name" required/>
-        <label class="modal-form__label" for="name">Name<sup>*</sup></label>
-      </div>
-      <div class="modal-form__group ">
-        <input type="email" class="modal-form__input" name="_replyto" required/>
-        <label class="modal-form__label" for="email">Email<sup>*</sup></label>
-      </div>
-
-  		<div class="modal-form__group">
-  			<input type="text" name="message" class="modal-form__input" required/>
-  			<label class="modal-form__label" for="message">Message<sup>*</sup></label>
-  		</div>
-
-      <div class="modal-form__group ">
-        <input type="submit" class="modal-form__input button" value="Send">
-      </div>
-      <input type="hidden" name="_next" value="/"/>
-  </form>
+    <p>Email me at <a href="mailto:hannah.hch@gmail.com">hannah.hch@gmail.com</a> or send me a message on <a href="https://www.linkedin.com/in/hannahchudson/" target="_blank"
+        rel="noreferrer">LinkedIn</a></p>
   </div>
 </template>
 
@@ -52,9 +34,11 @@ export default {
     margin: 0 auto;
     transform: translate(-50%, -50%);
     max-width: 500px;
+    text-align: center;
   }
 
   .modal-title {
+    font-size: 45px;
     margin-bottom: 25px;
     text-align: center;
   }
