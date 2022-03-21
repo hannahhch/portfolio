@@ -2,7 +2,7 @@
   <div class="modal">
     <span @click="toggleModal" class="btn--close">&#215;</span>
     <h2 class="modal-title">Get in Touch!</h2>
-    <form action="https://formspree.io/hannah.hch@gmail.com" method="POST">
+    <form action="https://formspree.io/f/hannah.hch@gmail.com" method="POST">
       <div class="modal-form__group ">
         <input type="text" class="modal-form__input" name="name" required/>
         <label class="modal-form__label" for="name">Name<sup>*</sup></label>
