@@ -4,6 +4,7 @@
     "subtitle": "Frontend Software Engineer",
     "experience" : [
       {
+        "id": "role-4",
         "role": "Frontend Instructor",
         "company": {
           "name": "Turing School of Software and Design",
@@ -23,6 +24,7 @@
         ]
       },
       {
+        "id": "role-3",
         "role": "Software Engineer",
         "company": {
           "name": "Smashing Boxes",
@@ -45,6 +47,7 @@
         ]
       },
       {
+        "id": "role-2",
         "role": "Frontend Developer",
         "company": {
           "name": "Rivers Agency",
@@ -68,6 +71,7 @@
         ]
       },
       {
+        "id": "role-1",
         "role": "Special Education Teacher",
         "company": {
           "name": "Chapel Hill High School",
@@ -77,6 +81,7 @@
         "dates": "August 2016 - June 2017"
       },
       {
+        "id": "role-0",
         "role": "Special Education Teacher",
         "company": {
           "name": "Rolesville High School",
@@ -88,6 +93,7 @@
     ],
     "education": [
       {
+        "id": "education-1",
         "school": "The Iron Yard",
         "link": "https://www.coursereport.com/schools/the-iron-yard",
         "location": "Durham, NC",
@@ -95,6 +101,7 @@
         "dates": "July 2017- October 2017"
       },
       {
+        "id": "education-0",
         "school": "University of NC Wilmington",
         "link": "https://uncw.edu/",
         "location": "Wilmington, NC",
@@ -104,30 +111,35 @@
     ],
     "community": [
       {
+        "id": "community-4",
         "title": "Volunteer for Code with Joan",
         "role": "Volunteer teacher for coding workshop for women+",
         "dates": "February 2022",
         "link": "https://turing.io"
       },
       {
+        "id": "community-3",
         "title": "Momentum Ambassador",
         "role": "Mentor and volunteer teacher for  local code school",
         "dates": "March 2018 - August 2019",
         "link": "https://www.momentumlearn.com/"
       },
       {
+        "id": "community-2",
         "title": "WebAIM Training",
         "role": "Attended two day course on web accessibility principles",
         "dates": "September 2018",
         "link": "https://webaim.org/training/"
       },
       {
+        "id": "community-1",
         "title": "Co-Teacher for Duke TIP Program",
         "role": "Full day programming course for 5th - 6th graders",
         "dates": "July 2018",
         "link": "https://tip.duke.edu/"
       },
       {
+        "id": "community-0",
         "title": "Teacher for Girl Develop It",
         "role": "Taught Intermediate HTML/CSS (8 hrs)",
         "dates": "March 2018",

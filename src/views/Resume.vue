@@ -14,16 +14,29 @@
       <h2 class="section-title">
         Professional Experience
       </h2>
-      <section class="section" v-for="exp in resume.experience">
+      <section 
+        class="section" 
+        v-bind:key="exp.id"
+        v-for="exp in resume.experience">
         <h3 class="info-title">
           <div> <em><span class="font--bold">{{ exp.role }}</span> | <a :href="exp.company.link" target="_blank" rel="noreferrer">{{ exp.company.name }}</a> | {{ exp.location }}</em></div>
         </h3>
         <h4 class="blue--accent">{{ exp.dates }}</h4>
-        <ul v-if="exp.duties" v-for="duty in exp.duties" class="experience-list">
-          <li>{{ duty }}</li>
+        <ul v-if="exp.duties" class="experience-list">
+          <li 
+            v-for="duty in exp.duties"
+            v-bind:key="`${duty}-${index}`"
+          >
+            {{ duty }}
+          </li>
         </ul>
         <ul v-if="exp.skills" class="skills-list">
-          <li v-for="skill in exp.skills">{{ skill }}</li>
+          <li 
+            v-for="skill in exp.skills"
+            v-bind:key="`${skill}-${index}`"
+            >
+            {{ skill }}
+          </li>
         </ul>
       </section>
 
@@ -31,7 +44,10 @@
         <h2 class="section-title">
           Education
         </h2>
-        <section v-for="education in resume.education" class="section">
+        <section 
+          v-for="education in resume.education" 
+          v-bind:key="education.id"
+          class="section">
            <h3 class="info-title">
             <div><em> <a :href="education.link" target="_blank" rel="noreferrer">{{ education.school }}</a> | {{ education.location }} | {{ education.focus}}</em></div>
             <div class="blue--accent">{{ education.dates }}</div>
@@ -43,7 +59,10 @@
         <h2 class="section-title">
           Community Activities
         </h2>
-        <section v-for="community in resume.community" class="section">
+        <section 
+          v-for="community in resume.community" 
+          v-bind:key="community.id"
+          class="section">
           <h3 class="info-title">
             <div><em>
               <a target="_blank" rel="noreferrer" :href="community.link">{{ community.title }}</a> | {{ community.role }}</em></div>
