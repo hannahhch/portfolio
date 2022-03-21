@@ -161,7 +161,6 @@ ul {
 
     li {
         font-size: 20px;
-        max-width: 200px;
     }
 
     h1 {

@@ -11,34 +11,6 @@
     </div>
 
     <div class="wrapper">
-      <section>
-        <h2 class="section-title">
-          Technical Skills
-        </h2>
-        <ul class="skills-list">
-          <li>React,</li>
-          <li>Mocha,</li>
-          <li>Chai,</li>
-          <li>Web Accessibility,</li>
-          <li>JavaScript,</li>
-          <li>Git,</li>
-          <li>GitHub,</li>
-          <li>CSS3/Sass/LESS,</li>
-          <li>Angular,</li>
-          <li>Typescript,</li>
-          <li>HTML5,</li>
-          <li>React,</li>
-          <li>React Native,</li>
-          <li>CSS Animation,</li>
-          <li>Vue,</li>
-          <li>PHP,</li>
-          <li>Shopify,</li>
-          <li>Wordpress,</li>
-          <li>Bitbucket</li>
-        </ul>
-      </section>
-      <hr>
-      <section>
         <h2 class="section-title">
           Professional Experience
         </h2>
@@ -46,24 +18,65 @@
           <div> <em><span class="font--bold">Frontend Instructor</span> | <a href="https://turing.io" target="_blank" rel="noreferrer">The Turing School of Software and Design</a> | Denver, CO -> Remote</em></div>
           <div class="blue--accent">October 2019 - March 2022</div>
         </h3>
-        <p>Taught over 400 students frontend engineering skills.</p>
-        <p>Continuously iterated on improving the frontend curriculum by documenting pain points (for both students and instructors) from one section of the program to the next.</p>
-        <p> Mentored new instructors; providing instructional support and guidance. Assisted many of these instructors on their own growth path at Turing. I also created tangible resources to help with onboarding.</p>
-        <p>Created new resources, projects and exercises for students. One example of this is a bank of advent calendar-style exercises for extra repetition practice. </p>
+        <ul class="experience-list">
+          <li>Created new resources, projects and exercises for students. One example of this is a bank of <a href="https://10daysfrontend.netlify.app/" target="_blank" rel="noreferrer">advent calendar-style exercises</a> for extra repetition practice.</li>
+          <li>Mentored new instructors; providing instructional support and guidance. Assisted many of these instructors on their own growth path at Turing. I also created tangible resources to help with onboarding.</li>
+          <li>Continuously iterated on improving the frontend curriculum by documenting pain points (for both students and instructors) from one section of the program to the next.</li>
+          <li>Taught over 400 students frontend engineering skills.</li>
+        </ul>
+        <ul class="skills-list">
+          <li>React</li>
+          <li>Mocha</li>
+          <li>Chai</li>
+          <li>Web Accessibility</li>
+          <li>JavaScript</li>
+          <li>Git</li>
+          <li>GitHub</li>
+          <li>CSS/Sass</li>
+          <li>HTML</li>
+        </ul>
         <hr>
         <h3 class="info-title">
           <div> <em><span class="font--bold">Software Engineer</span> | <a href="https://smashingboxes.com/" target="_blank" rel="noreferrer">Smashing Boxes</a> | Durham, NC -> Remote</em></div>
-          <div class="blue--accent">March 2019 - Present</div>
+          <div class="blue--accent">February 2019 - October 2019</div>
         </h3>
-        <p>Quickly learned to work with multiple technologies to build frontend applications to meet the needs of clients of various sizes, from startups to enterprises like Cisco.</p>
-        <p>Became the in-house expert for building CSS micro animations and debugging browser inconsistencies. </p>
+        <ul class="experience-list">
+          <li>Became the in-house expert for building CSS micro animations and debugging browser inconsistencies.</li>
+          <li>Quickly learned to work with multiple technologies to build frontend applications to meet the needs of clients of various sizes, from startups to enterprises like Cisco.</li>
+        </ul>
+        <ul class="skills-list">
+          <li>Angular</li>
+          <li>TypeScript</li>
+          <li>React</li>
+          <li>React Native</li>
+          <li>Git</li>
+          <li>Git</li>
+          <li>CSS Animation</li>
+          <li>CSS/Sass</li>
+          <li>HTML</li>
+        </ul>
         <hr>
         <h3 class="info-title">
           <div><em> <span class="font--bold">Frontend Developer</span> | <a href="https://riversagency.com/" target="_blank" rel="noreferrer">Rivers Agency</a> | Chapel Hill, NC</em></div>
           <div class="blue--accent">November 2017 - February 2019</div>
         </h3>
-        <p>Attended a training in web accessibility principles, and brought back what I learned to my coworkers through lunch and learn sessions. This decreased last minute accessibility fixes, and added accessibility compliance to our service offerings.</p>
-        <p>Built responsive websites to meet the needs of multiple clients. I provided training on content entry and site maintenance to clients as a part of the handoff at the end of engagements.</p>
+        <ul class="experience-list">
+          <li>Attended a training in web accessibility principles, and brought back what I learned to my coworkers through lunch and learn sessions. This decreased last minute accessibility fixes, and added accessibility compliance to our service offerings.</li>
+          <li>
+            Built responsive websites to meet the needs of multiple clients. I provided training on content entry and site maintenance to clients as a part of the handoff at the end of engagements.
+          </li>
+        </ul>
+        <ul class="skills-list">
+          <li>Vue</li>
+          <li>PHP</li>
+          <li>Shopify</li>
+          <li>Wordpress</li>
+          <li>Web Accessibility</li>
+          <li>Git</li>
+          <li>Bitbucket</li>
+          <li>CSS/Sass/LESS</li>
+          <li>HTML</li>
+        </ul>
         <hr>
         <h3 class="info-title">
           <div><em><span class="font--bold">Special Education Teacher</span> | Chapel Hill High School, NC</em></div>
@@ -75,7 +88,6 @@
           <div class="blue--accent">August 2014 - June 2016</div>
         </h3>
         <hr>
-      </section>
 
       <section>
         <h2 class="section-title">
@@ -131,12 +143,6 @@
   </main>
 </template>
 
-<script>
-
-export default {}
-
-</script>
-
 <style scoped lang="css">
   hr {
     border-color: rgb(87, 101, 116, .1);
@@ -155,7 +161,6 @@ export default {}
     background-color: var(--blue--accent);
     color: var(--white);
     padding: 25px;
-
   }
 
   .resume-header {
@@ -185,20 +190,29 @@ export default {}
   }
 
   .section-title {
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 35px;
   }
 
   .skills-list {
-    font-weight: var(--font-light-normal);
     list-style: none;
     display: flex;
     flex-wrap: wrap;
   }
 
   .skills-list li {
+    color: var(--blue--accent);
     font-size: 18px;
-    margin-right: 5px;
+  }
+
+  .skills-list li:not(:last-child):after {
+    content: '|';
+    margin: 0 10px;
+  }
+
+  .experience-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
   }
 
   .info-title {
