@@ -1,0 +1,138 @@
+{
+  "resume": {
+    "title": "Hannah Hudson",
+    "subtitle": "Frontend Software Engineer",
+    "experience" : [
+      {
+        "role": "Frontend Instructor",
+        "company": {
+          "name": "Turing School of Software and Design",
+          "link": "https://turing.io"
+        }, 
+        "location": "Denver, CO -> Remote",
+        "dates": "October 2019 - March 2022",
+        "duties": [
+          "Created new resources, projects and exercises for students. One example of this is a bank of advent calendar-style exercises for extra repetition practice.",
+          "Mentored new instructors; providing instructional support and guidance. Assisted many of these instructors on their own growth path at Turing. I also created tangible resources to help with onboarding.",
+          "Continuously iterated on improving the frontend curriculum by documenting pain points (for both students and instructors) from one section of the program to the next.",
+          "Taught over 400 students frontend engineering skills."
+        ],
+        "skills": [
+          "React", "Mocha", "Chai", "Web Accessibility", "JavaScript", "Git", "GitHub",
+          "CSS / Sass", "HTML"
+        ]
+      },
+      {
+        "role": "Software Engineer",
+        "company": {
+          "name": "Smashing Boxes",
+          "link": "https://smashingboxes.com/"
+        },
+        "location": "Durham, NC -> Remote",
+        "dates": "February 2019 - October 2019",
+        "duties": [
+          "Became the in-house expert for building CSS micro animations and debugging browser inconsistencies.",
+          "Quickly learned to work with multiple technologies to build frontend applications to meet the needs of clients of various sizes, from startups to enterprises like Cisco."
+        ],
+        "skills": [
+          "Angular",
+          "TypeScript",
+          "React", "React Native",
+          "Git",
+          "CSS Animation",
+          "CSS/Sass",
+          "HTML"
+        ]
+      },
+      {
+        "role": "Frontend Developer",
+        "company": {
+          "name": "Rivers Agency",
+          "link": "https://riversagency.com/"
+        },
+        "location": "Chapel Hill, NC",
+        "dates": "November 2017 - February 2019",
+        "duties": [
+          "Attended a training in web accessibility principles, and brought back what I learned to my coworkers through lunch and learn sessions. This decreased last minute accessibility fixes, and added accessibility compliance to our service offerings.",
+          "Built responsive websites to meet the needs of multiple clients. I provided training on content entry and site maintenance to clients as a part of the handoff at the end of engagements."
+        ],
+        "skills": [
+          "Vue",
+          "PHP",
+          "Shopify",
+          "Wordpress",
+          "Web Accessibility",
+          "Git", "Bitbucket",
+          "CSS/Sass/LESS",
+          "HTML"
+        ]
+      },
+      {
+        "role": "Special Education Teacher",
+        "company": {
+          "name": "Chapel Hill High School",
+          "link": "https://www.chccs.org/CHHS"
+        },
+        "location": "Chapel Hill, NC",
+        "dates": "August 2016 - June 2017"
+      },
+      {
+        "role": "Special Education Teacher",
+        "company": {
+          "name": "Rolesville High School",
+          "link": "https://www.wcpss.net/rolesvillehs"
+        },
+        "location": "Rolesville, NC",
+        "dates": "August 2014 - June 2016"
+      }
+    ],
+    "education": [
+      {
+        "school": "The Iron Yard",
+        "link": "https://www.coursereport.com/schools/the-iron-yard",
+        "location": "Durham, NC",
+        "focus": "Web Development Path",
+        "dates": "July 2017- October 2017"
+      },
+      {
+        "school": "University of NC Wilmington",
+        "link": "https://uncw.edu/",
+        "location": "Wilmington, NC",
+        "focus": "B.A in Special Education",
+        "dates": "Graduated July 2014"
+      }
+    ],
+    "community": [
+      {
+        "title": "Volunteer for Code with Joan",
+        "role": "Volunteer teacher for coding workshop for women+",
+        "dates": "February 2022",
+        "link": "https://turing.io"
+      },
+      {
+        "title": "Momentum Ambassador",
+        "role": "Mentor and volunteer teacher for  local code school",
+        "dates": "March 2018 - August 2019",
+        "link": "https://www.momentumlearn.com/"
+      },
+      {
+        "title": "WebAIM Training",
+        "role": "Attended two day course on web accessibility principles",
+        "dates": "September 2018",
+        "link": "https://webaim.org/training/"
+      },
+      {
+        "title": "Co-Teacher for Duke TIP Program",
+        "role": "Full day programming course for 5th - 6th graders",
+        "dates": "July 2018",
+        "link": "https://tip.duke.edu/"
+      },
+      {
+        "title": "Teacher for Girl Develop It",
+        "role": "Taught Intermediate HTML/CSS (8 hrs)",
+        "dates": "March 2018",
+        "link": "https://www.girldevelopit.com/"
+      }
+    ]
+  }
+}
