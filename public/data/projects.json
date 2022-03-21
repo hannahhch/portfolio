@@ -1,6 +1,28 @@
 {
   "projects": [
     {
+      "id": "10-days",
+      "languages": [
+        "React",
+        "CSS",
+        "HTML",
+        "CSS Animation",
+        "Mocha",
+        "Chai"
+      ],
+      "name": "10 Days of Frontend",
+      "projectImage": "10days.jpg",
+      "projectAlt": "10 Days of Frontend page",
+      "year": 2021,
+      "image": "turing.png",
+      "alt": "Click to see 10 Days of Frontend work",
+      "intro": "",
+      "description": "",
+      "wrapup": "",
+      "url": "https://10daysfrontend.netlify.app/",
+      "gitHub": "https://github.com/hannahhch/advent-theme"
+    },
+    {
       "id": "eos",
       "languages": [
         "Angular",
