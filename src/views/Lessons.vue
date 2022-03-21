@@ -4,6 +4,7 @@
       <h2>Lessons</h2>
         <section class="lessons">
           <section
+           class="lesson"
             v-bind:key="lesson.id"
             v-for="lesson in lessons"
           >
@@ -15,6 +16,24 @@
     
   </main>
 </template>
+
+<style scoped lang="css">
+  .lessons {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .lesson {
+    margin-bottom: 50px;
+  }
+
+  @media screen and (min-width: 1000px) {
+    .lessons {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+</style>
 
 <script>
 import axios from 'axios';
