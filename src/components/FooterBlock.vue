@@ -7,6 +7,7 @@
       <div class="footer-content--left">
           <h3 class="footer-content--left__header">Hannah Hudson</h3>
           <a target="_blank" rel="noreferrer" href="mailto:hannah.hch@gmail.com">hannah.hch@gmail.com</a>
+          <div>2023</div>
       </div>
       <div class="footer-content--right">
           <a href="https://github.com/hannahhch" target="_blank" class="footer-link">
