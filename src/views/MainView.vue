@@ -7,8 +7,8 @@
 
 <script>
 import axios from 'axios';
-import Hero from '../components/Hero.vue';
-import About from '../components/About.vue';
+import Hero from '../components/HeroBlock.vue';
+import About from '../components/AboutBlock.vue';
 
 export default {
   data: function (){

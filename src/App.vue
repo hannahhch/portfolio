@@ -10,12 +10,19 @@
 </template>
 
 <script>
-import Nav from './components/Nav'
-import Footer from './components/Footer'
-import Vue from 'vue'
-import vueSmoothScroll from 'vue2-smooth-scroll'
+import Nav from './components/NavigationBlock'
+import Footer from './components/FooterBlock'
+// import Vue from 'vue';
+// import Router from 'vue-router';
 
-Vue.use(vueSmoothScroll)
+// Vue.use(Router);
+
+
+// Vue.use(VueRouter)
+// import Vue from 'vue'
+// import vueSmoothScroll from 'vue2-smooth-scroll'
+
+// Vue.use(vueSmoothScroll)
 
 export default {
   name: 'app',

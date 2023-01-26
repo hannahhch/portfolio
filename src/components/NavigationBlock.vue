@@ -15,7 +15,7 @@
 </template>
 
 <script>
-import Modal from '../components/Modal.vue';
+import Modal from './ModalBlock.vue';
 
 export default {
   props: ['isModalShown'],

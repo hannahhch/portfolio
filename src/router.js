@@ -1,21 +1,11 @@
-import Vue from 'vue'
-import Router from 'vue-router'
+import { createWebHistory, createRouter } from 'vue-router';
+import Main from '@/views/MainView.vue';
+import Resume from '@/views/ResumeView.vue';
+import Projects from '@/views/ProjectsView.vue';
+import Project from '@/views/ProjectView.vue';
+import Lessons from '@/views/LessonsView.vue';
 
-import Main from './views/Main.vue'
-import Resume from './views/Resume.vue'
-import Project from './views/Project.vue'
-import Projects from './views/Projects.vue'
-import Lessons from './views/Lessons.vue'
-
-Vue.use(Router)
-
-export default new Router({
-  mode: 'history',
-  base: process.env.BASE_URL,
-  routes: [
-    { path: '*',
-      component: Main
-    },
+const routes = [
     {
       path: '/',
       name: 'main',
@@ -38,5 +28,12 @@ export default new Router({
       path: '/lessons',
       component: Lessons
     }
-  ]
-})
+
+];
+
+const router = createRouter({
+	history: createWebHistory(),
+	routes,
+});
+
+export default router;

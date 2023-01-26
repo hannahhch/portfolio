@@ -1,6 +1,6 @@
 <template lang="html">
   <footer class="footer">
-    <a v-smooth-scroll href="#top" class="footer-link__to-top">
+    <a href="#top" class="footer-link__to-top">
       &#8963;
     </a>
     <div class="footer-content">
