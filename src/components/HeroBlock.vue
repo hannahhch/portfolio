@@ -58,7 +58,7 @@ export default {
   padding-right: 15px;
   text-align: right;
   text-transform: capitalize;
-  background-color: var(--blue--accent);
+  background-color: var(--teal);
   color: var(--white);
 }
 

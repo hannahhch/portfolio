@@ -5,7 +5,8 @@
     --white: #fff;
     --black: #000;
     --red: #ED4C67;
-    --teal: #00b894;
+    --teal: rgb(0, 184, 148);
+    --teal-light: rgba(0, 184, 148, .2);
     --gray-background: rgb(87, 101, 116, .1);
     --overlay: rgba(0, 0, 0, .7);
 

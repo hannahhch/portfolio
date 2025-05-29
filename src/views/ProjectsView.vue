@@ -42,8 +42,8 @@ export default {
   .main{
     background: repeating-linear-gradient(
     45deg,
-    var(--gray-background),
-    var(--gray-background) 10px,
+    var(--teal-light),
+    var(--teal-light) 10px,
     var(--blue-grey) 10px,
     var(--blue-grey) 20px
    );

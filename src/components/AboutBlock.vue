@@ -37,6 +37,7 @@ h2 {
 h3 {
   font-size: 24px;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 
 p {

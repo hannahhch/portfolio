@@ -8,7 +8,7 @@
             v-bind:key="lesson.id"
             v-for="lesson in lessons"
           >
-          <iframe width="420" height="315" :src="lesson.url"  frameborder="0" allowfullscreen>></iframe>
+          <iframe width="520" height="315" :src="lesson.url"  frameborder="0" allowfullscreen>></iframe>
           <h3>{{lesson.title}}</h3>
           </section>
     </section>
@@ -18,6 +18,14 @@
 </template>
 
 <style scoped lang="css">
+.main {
+  background-image: linear-gradient(
+    to bottom, 
+    var(--blue-grey) 0%, 
+    var(--blue-grey) 20%, 
+    var(--teal-light) 20%);
+
+}
   .lessons {
     display: grid;
     grid-template-columns: 1fr;

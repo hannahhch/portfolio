@@ -79,7 +79,7 @@ export default {
 
 <style scoped lang="css">
   .section {
-    border-bottom: solid 2px rgb(87, 101, 116, .1);
+    border-bottom: solid 1px rgb(87, 101, 116, .1);
     padding-bottom: 15px;
     margin-bottom: 25px;
   }
@@ -89,7 +89,7 @@ export default {
   }
 
   .resume-header__wrapper {
-    background-color: var(--blue--accent);
+    background-color: var(--teal);
     color: var(--white);
     padding: 25px;
   }
@@ -117,13 +117,14 @@ export default {
 
   .resume-image {
     border-radius: 50%;
-    margin-bottom: 25px;
+    object-fit: cover;
     overflow: hidden;
     max-width: 190px;
   }
 
   .section-title {
-    font-size: 25px;
+    font-size: 32px;
+    font-weight: 600;
     margin-top: 35px;
   }
 
