@@ -1,0 +1,126 @@
+{
+  "resume": {
+    "title": "Hannah Hudson",
+    "subtitle": "Frontend Software Developer",
+    "experience" : [
+      {
+        "id": "role-5",
+        "role": "Senior Frontend Developer",
+        "company": {
+          "name": "The Office of Experience",
+          "link": "https://officeofexperience.com/"
+        }, 
+        "dates": "June 2022 - Present",
+        "duties": [
+          "Developed and demonstrated new functionality to clients, creating and implementing comprehensive testing plans to ensure the features met or exceeded client expectations.",
+          "Provided critical assistance in completing projects under tight deadlines, consistently delivering high-quality work even in high-pressure situations.",
+          "Expertly identified and resolved bugs in a timely manner, maintaining high levels of efficiency and productivity in the development process."
+        ],
+        "skills": [
+          "Vue", "React", "Next", "TypeScript", "JavaScript", "Git", "GitHub", "CSS / Sass", "CSS Animation", "HTML5", "Wordpress", "MailChimp", "InstaPage"
+        ]
+      },
+      {
+        "id": "role-4",
+        "role": "Frontend Instructor",
+        "company": {
+          "name": "Turing School of Software and Design",
+          "link": "https://turing.edu/"
+        }, 
+        "dates": "October 2019 - March 2022",
+        "duties": [
+          "Created new resources, projects and exercises for students. One example of this is a bank of advent calendar-style exercises for extra repetition practice.",
+          "Mentored new instructors; providing instructional support and guidance. Assisted many of these instructors on their own growth path at Turing. I also created tangible resources to help with onboarding.",
+          "Continuously iterated on improving the frontend curriculum by documenting pain points (for both students and instructors) from one section of the program to the next.",
+          "Taught over 400 students frontend engineering skills."
+        ],
+        "skills": [
+          "React", "Mocha", "Chai", "Web Accessibility", "JavaScript", "Git", "GitHub",
+          "CSS / Sass", "HTML5"
+        ]
+      },
+      {
+        "id": "role-3",
+        "role": "Software Engineer",
+        "company": {
+          "name": "Smashing Boxes",
+          "link": "https://smashingboxes.com/"
+        },
+        "dates": "February 2019 - October 2019",
+        "duties": [
+          "Became the in-house expert for building CSS micro animations and debugging browser inconsistencies.",
+          "Quickly learned to work with multiple technologies to build frontend applications to meet the needs of clients of various sizes, from startups to enterprises like Cisco."
+        ],
+        "skills": [
+          "Angular",
+          "TypeScript",
+          "React", "React Native",
+          "Git",
+          "CSS Animation",
+          "CSS / Sass",
+          "HTML5"
+        ]
+      },
+      {
+        "id": "role-2",
+        "role": "Frontend Developer",
+        "company": {
+          "name": "Rivers Agency",
+          "link": "https://riversagency.com/"
+        },
+        "dates": "November 2017 - February 2019",
+        "duties": [
+          "Attended a training in web accessibility principles, and brought back what I learned to my coworkers through lunch and learn sessions. This decreased last minute accessibility fixes, and added accessibility compliance to our service offerings.",
+          "Built responsive websites to meet the needs of multiple clients. I provided training on content entry and site maintenance to clients as a part of the handoff at the end of engagements."
+        ],
+        "skills": [
+          "Vue",
+          "PHP",
+          "Shopify",
+          "Wordpress",
+          "Web Accessibility",
+          "Git", "Bitbucket",
+          "CSS/Sass/LESS",
+          "HTML5"
+        ]
+      },
+      {
+        "id": "role-1",
+        "role": "Special Education Teacher",
+        "company": {
+          "name": "Chapel Hill High School",
+          "link": "https://www.chccs.org/CHHS"
+        },
+        "dates": "August 2016 - June 2017"
+      },
+      {
+        "id": "role-0",
+        "role": "Special Education Teacher",
+        "company": {
+          "name": "Rolesville High School",
+          "link": "https://www.wcpss.net/rolesvillehs"
+        },
+        "dates": "August 2014 - June 2016"
+      }
+    ],
+    "education": [
+      {
+        "id": "education-1",
+        "school": "The Iron Yard",
+        "link": "https://www.coursereport.com/schools/the-iron-yard",
+        "location": "Durham, NC",
+        "focus": "Web Development Path",
+        "dates": "July 2017- October 2017"
+      },
+      {
+        "id": "education-0",
+        "school": "University of NC Wilmington",
+        "link": "https://uncw.edu/",
+        "location": "Wilmington, NC",
+        "focus": "B.A in Special Education",
+        "dates": "Graduated July 2014"
+      }
+    ]
+  
+  }
+}

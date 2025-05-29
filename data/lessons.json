@@ -1,0 +1,39 @@
+{
+  "lessons": [
+    {
+      "id": 0,
+      "title": "Workflow: PRs and GH Communication",
+      "url": "https://www.youtube.com/embed?v=II5dCQVQLm8&list=PL1Y67f0xPzdPuzOOFv9hZXD69eJEwIf-j&index=4"
+    },
+    {
+      "id": 1,
+      "title": "GETs, POSTs and DELETEs, man! Intro to Postman.",
+      "url": "https://www.youtube.com/embed/MRw07FQRscI"
+    },
+    {
+      "id": 2,
+      "title": "WAI ARIA",
+      "url": "https://www.youtube.com/embed/r5bPkeMrUfU"
+    },
+    {
+      "id": 3,
+      "title": "CSS Responsive Layouts",
+      "url": "https://www.youtube.com/embed/NfQaEIHHy6g"
+    },
+    {
+      "id": 4,
+      "title": "Intro to React Hooks",
+      "url": "https://www.youtube.com/embed/LN8sPQTIpo4"
+    },
+    {
+      "id": 5,
+      "title": "Working with Objects",
+      "url": "https://www.youtube.com/embed/bMbqycD6CSE"
+    },
+    {
+      "id": 6,
+      "title": "GitHub Team Workflow (Co-Teaching)",
+      "url": "https://www.youtube.com/embed/-UURAQadwH8"
+    }
+  ]
+}

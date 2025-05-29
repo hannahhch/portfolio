@@ -1,0 +1,164 @@
+{
+  "projects": [
+    {
+      "id": "10-days",
+      "languages": [
+        "React",
+        "CSS",
+        "HTML",
+        "CSS Animation",
+        "Mocha",
+        "Chai"
+      ],
+      "name": "10 Days of Frontend",
+      "projectImage": "10days.jpg",
+      "projectAlt": "10 Days of Frontend page",
+      "year": 2021,
+      "image": "turingSchool.png",
+      "alt": "Click to see 10 Days of Frontend work",
+      "intro": "Every year during the winter holidays at the Turing School of Software and Design, students get two weeks off from classes. To encourage them to relax and recharge, they don't typically have an assigned project at that time. For many students, going from a full time work schedule to complete time off can be detrimental to maintaining their engineering skills. After seeing this need, I created a bank of optional exercises to keep students on track.",
+      "description": "The skills focused on range from beginner to immediate JavaScript, testing, refactoring, network requests, DOM manipulation and more. Later, a focus on React and Cypress testing skills were added by another frontend instructor.",
+      "wrapup": "Overall, I received some great feedback from the students who directly used the calendar. Anonymous Student - 'Specific feedback about the advent calendar: it was so incredibly helpful to have separate discrete things to work on over break. This kept me from getting lost and spending way too much time on any one thing. And also: it was so cute!!! The cuteness wasn’t necessary for the functionality, but it totally helped keep me interested. It was just so cute that I wanted to interact with it all the time. I showed it to several non-coder friends and family members so they could be jealous of what I got to do over the break and be impressed with one of my instructors. I can’t tell you how much I appreciate that you made it, and I feel bad for future mod 1 students that won’t have a break in the middle like we did. Oh also: the cookie comp was hell for a day or two as I kept finding new ways to screw it up but also it was invaluable practice :)'",
+      "url": "https://10daysfrontend.netlify.app/",
+      "gitHub": "https://github.com/hannahhch/advent-theme"
+    },
+    {
+      "id": "eos",
+      "languages": [
+        "Angular",
+        "Typescript",
+        "CSS",
+        "CSS Animation",
+        "HTML"
+      ],
+      "name": "EOSBet",
+      "projectImage": "eos-page.png",
+      "projectAlt": "EOSBet page",
+      "year": 2019,
+      "image": "eosbet.jpg",
+      "alt": "Click to see EOSBet work",
+      "intro": "",
+      "description": "",
+      "wrapup": "",
+      "url": ""
+    },
+ 
+
+  {
+    "id": "duke",
+    "languages": [
+      "Drupal",
+      "html",
+      "css",
+      "javascript"
+    ],
+    "name": "Duke Chapel",
+    "projectImage": "dc-page.png",
+    "projectAlt": "Duke Chapel logo",
+    "year": 2019,
+    "image": "dc.jpeg",
+    "alt": "Click to see Duke Chapel work",
+    "intro": "",
+    "description": "",
+    "wrapup": "",
+    "url": "https://chapel.duke.edu/"
+  },
+  {
+    "id": "first-bank",
+    "languages": [
+      "Wordpress",
+      "Vue",
+      "jQuery",
+      "Bootstrap",
+      "php",
+      "twig"
+    ],
+    "projectImage": "fb_one.jpg",
+    "projectAlt": "Screenshot of First Bank rewards calculator",
+    "name": "First Bank",
+    "year": 2018,
+    "image": "fb.jpg",
+    "alt": "Click to see work on First Bank",
+    "url": "https://localfirstbank.com/"
+  }, {
+    "id": "hill-center",
+    "languages": [
+      "Wordpress",
+      "php",
+      "jQuery",
+      "scss",
+      "Google analytics"
+    ],
+    "projectImage": "hc_one.jpg",
+    "projectAlt": "Screenshot of Hillcenter video tour page",
+    "name": "Hill Center",
+    "year": 2018,
+    "image": "hc.jpg",
+    "alt": "Click to see work on Hill Center",
+    "url": "https://www.hillcenter.org/"
+  }, {
+    "id": "rourk",
+    "languages": [
+      "css animation",
+      "jQuery",
+      "Wordpress",
+      "php",
+      "scss",
+      "google analytics"
+    ],
+    "projectImage": "rourk_one.jpg",
+    "projectAlt": "Screenshot of Rourk homepage",
+    "name": "Rourk",
+    "year": 2018,
+    "image": "rourk.png",
+    "alt": "Click to see work on Rourk"
+  }, {
+    "id": "fbomb",
+    "languages": [
+      "shopify",
+      "scss",
+      "jQuery",
+      "twig"
+    ],
+    "projectImage": "fbomb_one.jpg",
+    "projectAlt": "Screenshot of fbomb category section",
+    "name": "fbomb",
+    "year": 2018,
+    "image": "fbomb.jpg",
+    "alt": "Click to see work on f bomb"
+  }, {
+    "id": "e-conolight",
+    "languages": [
+      "HTML",
+      "SCSS",
+      "Magento 2",
+      "jQuery"
+    ],
+    "projectImage": "econo_one.jpg",
+    "projectAlt": "Screenshot of econolight poles page",
+    "name": "e-conolight",
+    "year": 2017,
+    "image": "econo.jpg",
+    "alt": "Click to see work on e conolight",
+    "url": "https://www.e-conolight.com/",
+    "intro": "E-conoglight is a brand under Cree - an international company that creates and sells lighting, electrical supplies and more. When I started at Rivers Agency, the new e-conolight e-commerce site was underway. This was the first project I worked on at Rivers Agency."
+
+  }, {
+    "id": "tourify",
+    "languages": [
+      "React",
+      "Rails API",
+      "Google Maps"
+    ],
+    "projectImage": "tourify_one.jpg",
+    "projectAlt": "Screenshot of tourify homepage",
+    "name": "Tourify",
+    "year": 2017,
+    "image": "tiy.png",
+    "alt": "Click to see work on Tourify",
+    "gitHub": "https://github.com/Tourify/tourify",
+    "intro": "Tourify is a web application designed to guide users on a historic tour of downtown Durham, NC. I worked on Tourify for my final project at The Iron Yard (coding bootcamp). While not a native app, my team and I built Tourify with mobile designs in mind. We saw users looking at their phones to guide them to different tour stops as shown on the app. At The Iron Yard, there were about 5 final project teams, and I was initially on a different one. Unfortunately, one of my team members would not be participating in final projects, so the decision was made to split up the remaining members into existing groups. I missed the first 2 planning days of tourify, and the team was already made up of 2 frontend and 2 backend developers. I was a little worried that roles were already assigned, and that there wasn't anything I could focus on. Luckily, all of my new team members were welcoming and glad that I joined the team.",
+    "description": "We only had 2 weeks to create the app, and they really wanted someone to figure out how to add actual maps and geolocation to the app. It was something we had never done (especially within a React app). The alternative was to use screenshots of locations, so I volunteered to dive into the Google Maps API. Figuring out Google Maps was a fun challenge. I found so many tutorials for using the API, but it was a whole different issue making it work with React. I was overjoyed when I figured out how to embedded the different maps, that I went for geolocation too! It was really cool having that feature, so that a user could see about how far away they were from a tour stop. ",
+    "wrapup": "Working on Tourify was my first taste at working on a real dev team, and I was ready for it! I throughly enjoyed all of the individual projects at The Iron Yard, but I was ready to see what it would be like at a real dev job. With my background as a high school special education teacher, this was all new to me. Overall, I'm happy with how the final project went, both working with others on a team, learning new skills and even presenting the final creation on demo day. It was a little nervewracking, but great to speak about my part in the project, and chat with employeers about it afterwards. I can even credit getting my first developer job to Tourify!"
+  }]
+}
