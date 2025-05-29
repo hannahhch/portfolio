@@ -1,8 +1,25 @@
 {
   "resume": {
     "title": "Hannah Hudson",
-    "subtitle": "Frontend Software Engineer",
+    "subtitle": "Frontend Software Developer",
     "experience" : [
+      {
+        "id": "role-5",
+        "role": "Senior Frontend Developer",
+        "company": {
+          "name": "The Office of Experience",
+          "link": "https://officeofexperience.com/"
+        }, 
+        "dates": "June 2022 - Present",
+        "duties": [
+          "Developed and demonstrated new functionality to clients, creating and implementing comprehensive testing plans to ensure the features met or exceeded client expectations.",
+          "Provided critical assistance in completing projects under tight deadlines, consistently delivering high-quality work even in high-pressure situations.",
+          "Expertly identified and resolved bugs in a timely manner, maintaining high levels of efficiency and productivity in the development process."
+        ],
+        "skills": [
+          "Vue", "React", "Next", "TypeScript", "JavaScript", "Git", "GitHub", "CSS / Sass", "CSS Animation", "HTML5", "Wordpress"
+        ]
+      },
       {
         "id": "role-4",
         "role": "Frontend Instructor",
@@ -10,7 +27,6 @@
           "name": "Turing School of Software and Design",
           "link": "https://turing.io"
         }, 
-        "location": "Denver, CO -> Remote",
         "dates": "October 2019 - March 2022",
         "duties": [
           "Created new resources, projects and exercises for students. One example of this is a bank of advent calendar-style exercises for extra repetition practice.",
@@ -20,7 +36,7 @@
         ],
         "skills": [
           "React", "Mocha", "Chai", "Web Accessibility", "JavaScript", "Git", "GitHub",
-          "CSS / Sass", "HTML"
+          "CSS / Sass", "HTML5"
         ]
       },
       {
@@ -30,7 +46,6 @@
           "name": "Smashing Boxes",
           "link": "https://smashingboxes.com/"
         },
-        "location": "Durham, NC -> Remote",
         "dates": "February 2019 - October 2019",
         "duties": [
           "Became the in-house expert for building CSS micro animations and debugging browser inconsistencies.",
@@ -42,8 +57,8 @@
           "React", "React Native",
           "Git",
           "CSS Animation",
-          "CSS/Sass",
-          "HTML"
+          "CSS / Sass",
+          "HTML5"
         ]
       },
       {
@@ -53,7 +68,6 @@
           "name": "Rivers Agency",
           "link": "https://riversagency.com/"
         },
-        "location": "Chapel Hill, NC",
         "dates": "November 2017 - February 2019",
         "duties": [
           "Attended a training in web accessibility principles, and brought back what I learned to my coworkers through lunch and learn sessions. This decreased last minute accessibility fixes, and added accessibility compliance to our service offerings.",
@@ -67,7 +81,7 @@
           "Web Accessibility",
           "Git", "Bitbucket",
           "CSS/Sass/LESS",
-          "HTML"
+          "HTML5"
         ]
       },
       {
@@ -77,7 +91,6 @@
           "name": "Chapel Hill High School",
           "link": "https://www.chccs.org/CHHS"
         },
-        "location": "Chapel Hill, NC",
         "dates": "August 2016 - June 2017"
       },
       {
@@ -87,7 +100,6 @@
           "name": "Rolesville High School",
           "link": "https://www.wcpss.net/rolesvillehs"
         },
-        "location": "Rolesville, NC",
         "dates": "August 2014 - June 2016"
       }
     ],

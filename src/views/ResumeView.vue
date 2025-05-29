@@ -19,7 +19,7 @@
         v-bind:key="exp.id"
         v-for="exp in resume.experience">
         <h3 class="info-title">
-          <div> <em><span class="font--bold">{{ exp.role }}</span> | <a :href="exp.company.link" target="_blank" rel="noreferrer">{{ exp.company.name }}</a> | {{ exp.location }}</em></div>
+          <div> <em><span class="font--bold">{{ exp.role }}</span> | <a :href="exp.company.link" target="_blank" rel="noreferrer">{{ exp.company.name }}</a></em></div>
         </h3>
         <h4 class="blue--accent">{{ exp.dates }}</h4>
         <ul v-if="exp.duties" class="experience-list">
