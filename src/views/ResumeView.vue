@@ -6,7 +6,7 @@
           <h1 class="resume-header--title">{{ resume.title }}</h1>
           <h2 class="resume-header--subtitle">{{ resume.subtitle }}</h2>
         </div>
-        <img class="resume-image" src="../assets/images/profile.jpg" alt="profile of Hannah Hudson">
+        <img class="resume-image" src="../assets/images/headshot.jpg" alt="profile of Hannah Hudson">
       </div>
     </div>
 
@@ -55,21 +55,6 @@
         </section>
       </section>
 
-      <section>
-        <h2 class="section-title">
-          Community Activities
-        </h2>
-        <section 
-          v-for="community in resume.community" 
-          v-bind:key="community.id"
-          class="section">
-          <h3 class="info-title">
-            <div><em>
-              <a target="_blank" rel="noreferrer" :href="community.link">{{ community.title }}</a> | {{ community.role }}</em></div>
-            <div class="blue--accent">{{ community.dates }}</div>
-          </h3>
-        </section> 
-      </section>
     </div>
   </main>
 </template>
@@ -114,7 +99,7 @@ export default {
     flex-direction: column-reverse;
     align-items: center;
     justify-content: space-between;
-    max-width: 1100px;
+    max-width: 1200px;
     margin: 0 auto;
     text-align: center;
   }
@@ -133,6 +118,8 @@ export default {
   .resume-image {
     border-radius: 50%;
     margin-bottom: 25px;
+    overflow: hidden;
+    max-width: 190px;
   }
 
   .section-title {
@@ -144,16 +131,24 @@ export default {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
+    background-color: white;
+    display: inline-flex;
+    padding: 5px 20px;
+
   }
 
   .skills-list li {
     color: var(--blue--accent);
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .skills-list li:not(:last-child):after {
     content: '|';
     margin: 0 10px;
+  }
+
+  .experience-list {
+    padding-left: 30px;
   }
 
   .experience-list li {

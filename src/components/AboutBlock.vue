@@ -1,8 +1,8 @@
 <template lang="html">
   <section class="about-section">
     <div class="about-section--wrapper">
-      <h2>Hello, I'm Hannah.</h2>
-      <h3>I am a frontend engineer and digital nomad from Colorado with a love for clean code, thoughtful design, and
+      <!-- <h2>Hello, I'm Hannah.</h2> -->
+      <h3>I'm a digital nomad from Colorado with a love for clean code, thoughtful design, and
         cave diving.</h3>
       <p>
 
@@ -27,15 +27,21 @@
 .about-section {
   background-color: white;
   padding: 0 25px;
-  border-top: solid 5px var(--blue-grey--dark);
+  border-top: solid 5px var(--blue-grey--dark);  
 }
 
 h2 {
   margin: 0;
 }
 
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
 p {
-  margin: 0 0 10px;
+  margin: 0 0 20px;
+  font-size: 20px;
 }
 
 .about-section--list li {
@@ -50,7 +56,7 @@ p {
 }
 
 .about-section--wrapper {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 50px 0;
 }

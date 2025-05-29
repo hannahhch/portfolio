@@ -70,7 +70,7 @@ import axios from 'axios';
 
 <style scoped lang="css">
   .main {
-    max-width: 1100px;
+    max-width: 1200px;
     height: 100%;
     padding: 0 15px;
     margin: 40px 0;
@@ -111,7 +111,7 @@ import axios from 'axios';
 
   @media screen and (min-width: 750px) {
     .main {
-        max-width: 1100px;
+        max-width: 1200px;
         padding: 0 50px;
         margin: 40px auto;
     }

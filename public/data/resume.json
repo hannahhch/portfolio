@@ -25,7 +25,7 @@
         "role": "Frontend Instructor",
         "company": {
           "name": "Turing School of Software and Design",
-          "link": "https://turing.io"
+          "link": "https://turing.edu/"
         }, 
         "dates": "October 2019 - March 2022",
         "duties": [
@@ -120,43 +120,7 @@
         "focus": "B.A in Special Education",
         "dates": "Graduated July 2014"
       }
-    ],
-    "community": [
-      {
-        "id": "community-4",
-        "title": "Volunteer for Code with Joan",
-        "role": "Volunteer teacher for coding workshop for women+",
-        "dates": "February 2022",
-        "link": "https://turing.io"
-      },
-      {
-        "id": "community-3",
-        "title": "Momentum Ambassador",
-        "role": "Mentor and volunteer teacher for  local code school",
-        "dates": "March 2018 - August 2019",
-        "link": "https://www.momentumlearn.com/"
-      },
-      {
-        "id": "community-2",
-        "title": "WebAIM Training",
-        "role": "Attended two day course on web accessibility principles",
-        "dates": "September 2018",
-        "link": "https://webaim.org/training/"
-      },
-      {
-        "id": "community-1",
-        "title": "Co-Teacher for Duke TIP Program",
-        "role": "Full day programming course for 5th - 6th graders",
-        "dates": "July 2018",
-        "link": "https://tip.duke.edu/"
-      },
-      {
-        "id": "community-0",
-        "title": "Teacher for Girl Develop It",
-        "role": "Taught Intermediate HTML/CSS (8 hrs)",
-        "dates": "March 2018",
-        "link": "https://www.girldevelopit.com/"
-      }
     ]
+  
   }
 }

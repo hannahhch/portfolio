@@ -103,10 +103,9 @@ p {
 
 a {
   color: var(--blue--accent);
-  font-weight: 700;
   text-decoration: none;
   transition: all 300ms;
-  border-bottom: solid 2px transparent;
+  border-bottom: solid 1px var(--blue--accent);;
   transition: all 300ms linear;
   opacity: .7;
 }
@@ -114,7 +113,7 @@ a {
 a:hover {
   opacity: 1;
   cursor: pointer;
-  border-bottom: solid 2px var(--blue--accent);
+  border-bottom: solid 1px transparent;
 }
 
 ul {
@@ -143,7 +142,7 @@ ul {
 }
 
 .wrapper {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 25px;
 }

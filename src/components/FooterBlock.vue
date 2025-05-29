@@ -42,6 +42,11 @@
   text-align: center;
   opacity: .5;
   border: none;
+  cursor: pointer;
+}
+
+.footer-content--left a {
+  margin-bottom: 10px;
 }
 
 .footer-link__to-top:hover {
@@ -60,7 +65,7 @@
 }
 
 .footer-content {
-  max-width: 1100px;
+  max-width: 1200px;
   width: 90%;
   margin: 0 auto;
   display: flex;

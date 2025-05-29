@@ -2,7 +2,7 @@
   <section class="hero-section">
     <div class="hero-section__overlay">
       <div class="hero-section__text">
-        <h1 class="hero-section__title">Hannah Hudson</h1>
+        <h1 class="hero-section__title">Hello, I'm Hannah.</h1>
         <h2 class="hero-section__subtitle">Frontend Software Engineer</h2>
       </div>
     </div>
@@ -47,7 +47,7 @@ export default {
 
 .hero-section__title {
     font-size: 35px;
-    padding-left: 20px;
+    padding-left: 60px;
     margin: 0;
     text-transform: uppercase;
 }
