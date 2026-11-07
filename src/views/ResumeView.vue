@@ -12,7 +12,7 @@
     </div>
 
     <div class="resume-download-section">
-      <a class="resume-link" download="hannah_resume.pdf" href="../assets/documents/hannah_hudson_resume.pdf">Download my resume</a>
+      <a class="resume-link" download="hannah_hudson_resume.pdf" href="/resume.pdf">Download my resume</a>
     </div>
 
     <div class="wrapper">
