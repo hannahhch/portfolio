@@ -44,6 +44,7 @@
               DDN
             </a>
          </li>
+         <li><a href="https://www.sunriseseniorliving.com/">Sunrise Senior Living</a></li>
            <li>
             <a href="https://dexterindex.com/" target="_blank">
                 Dexter Index
@@ -59,7 +60,9 @@
                   <a href="https://10daysfrontend.netlify.app/" target="_blank">
                       Advent Calendar
                     </a>
-                </li> <li>
+                </li> 
+                <li>Scream at Trump</li>
+                <li>
                   
                         EOS Bet
                      
@@ -67,9 +70,10 @@
                   <li>Cisco</li>
                   <li>Duke Chapel</li>
                   <li>First Bank</li>
-                  <li>Hill’s Learning</li>
-                  <li>Rourk</li>
+                  <li>Hill Learning Center</li>
+                  <li><a href="https://rourkcapital.com/">Rourk Capital Partners</a></li>
                   <li>FBOMB</li>
+                  <li>Charles and Colvard</li>
                   <li>Econolight</li>
                
         </ul>
