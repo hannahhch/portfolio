@@ -12,7 +12,21 @@
           <h3>{{lesson.title}}</h3>
           </section>
     </section>
-    </section>
+    <h3 class="lessons-subhead">Other Lesson Plans</h3>
+    <ul>
+       <li>
+            <a href="https://hannahhch.github.io/keyframes-crash-course/slides/slides.html" target="_blank">Keyframes Crash Course</a> - Bonus Lecture for Momentum Code School
+        </li>
+         <li>
+            <a href="https://hannahhch.github.io/frontend-adventures-duke-tip/slides" target="_blank">Frontend Adventures</a> - Half day lesson for the Duke TIP program (5th and 6th graders)
+        </li>
+      <li>
+          <a href="https://hannahhch.github.io/bracket-vs-dots/" target="_blank">Brackets vs Dots</a> -  Mini Lesson for Turing School
+      </li>
+    </ul>
+     
+
+  </section>
     
   </main>
 </template>
@@ -24,7 +38,15 @@
     var(--blue-grey) 0%, 
     var(--blue-grey) 20%, 
     var(--teal-light) 20%);
+}
 
+.lessons-subhead {
+  font-size: 30px;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
 }
   .lessons {
     display: grid;

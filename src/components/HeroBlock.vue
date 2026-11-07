@@ -1,10 +1,10 @@
 <template lang="html">
   <section class="hero-section">
     <div class="hero-section__overlay">
-      <div class="hero-section__text">
+      <!-- <div class="hero-section__text">
         <h1 class="hero-section__title">Hello, I'm Hannah.</h1>
-        <h2 class="hero-section__subtitle">Frontend Software Engineer</h2>
-      </div>
+        <h2 class="hero-section__subtitle">Frontend Engineer and Educator</h2>
+      </div> -->
     </div>
   </section>
   
@@ -24,19 +24,19 @@ export default {
     background-size: cover;
     /* background-attachment: fixed; */
     width: 100%;
-    height: 80vh;
+    height: 40vh;
     margin: 0 auto;
     position: relative;
 }
 
-.hero-section__overlay {
+/* .hero-section__overlay {
     position: absolute;
     top: 0;
     right: 0;
     left: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, .4);
-}
+} */
 
 .hero-section__text {
   position: absolute;

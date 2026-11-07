@@ -1,19 +1,18 @@
 <template lang="html">
   <section class="about-section">
     <div class="about-section--wrapper">
-      <!-- <h2>Hello, I'm Hannah.</h2> -->
-      <h3>I'm a digital nomad from Colorado with a love for clean code, thoughtful design, and
-        cave diving.</h3>
+      <h2>Hello, I'm Hannah.</h2>
+      <!-- <h3>I'm a digital nomad from Colorado with a love for clean code, thoughtful design, and
+        cave diving.</h3> -->
       <p>
 
-        By day, I build accessible, performant web experiences with technologies like Vue, React, and TypeScript. I
-        currently work remotely with The Office of Experience, where I help bring ideas to life for clients big and
-        small. I’ve also taught over 400 students software engineering as an instructor, mentored new developers, and
-        contributed to curriculum development.</p>
+       I'm a frontend engineer who enjoys the intersection of technology, design, and problem-solving. I care about building things that are intuitive, accessible, and thoughtfully put together — down to the little details that make a difference.</p>
         
-        <p>Outside of work, I’m usually chasing adventure — whether that’s exploring remote dive sites, traveling across
-        new countries, or finding the best Wi-Fi-friendly coffee shop in town. I believe in writing code that’s as clear
-        and intentional as the paths I follow, whether above ground or 100 feet below it.</p>
+        <p>I'm also passionate about education and helping others find their way into tech. Teaching software engineering has been one of the most rewarding parts of my career, and I enjoy sharing what I've learned along the way.</p>
+
+        <p>Outside of coding, I'm usually drawn to adventure. I'm an avid scuba diver with a particular love for cave diving, and I enjoy traveling, exploring unfamiliar places, and experiencing different ways of life. I'm always on the lookout for the next interesting place to explore (and a good coffee shop along the way).</p>
+
+        <p>I'm curious by nature, happiest when I'm learning something new, and always interested in meeting people who are passionate about what they do.</p>
 
         <p>Want to collaborate or just say hi? <a target="_blank" href="https://www.linkedin.com/in/hannahchudson/">Let’s connect</a>.
 
